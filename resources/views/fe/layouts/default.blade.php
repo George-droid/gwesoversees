@@ -18,13 +18,13 @@
 
 
     <!-- Additional CSS Files -->
-    <link href="{{ asset('bootstrap/css/fontawesome.css')}}" rel="stylesheet">
+    <link href="{{ asset('css/fontawesome.css')}}" rel="stylesheet">
     <!-- Font Awesome CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
-    <link href="{{ asset('bootstrap/css/templatemo-grad-school.css')}}" rel="stylesheet">
-    <link href="{{ asset('bootstrap/css/owl.css')}}" rel="stylesheet">
-    <link href="{{ asset('bootstrap/css/lightbox.css')}}" rel="stylesheet">
+    <link href="{{ asset('css/templatemo-grad-school.css')}}" rel="stylesheet">
+    <link href="{{ asset('css/owl.css')}}" rel="stylesheet">
+    <link href="{{ asset('css/lightbox.css')}}" rel="stylesheet">
 
   </head>
 
@@ -49,6 +49,7 @@
     </nav>
   </header>
 
+  @yield('content')
 
   <footer>
     <div class="container">
