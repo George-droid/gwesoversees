@@ -18,3 +18,4 @@ use App\Http\Controllers\CustomAuthController;
 // });
 
 Route::get('/', [CustomAuthController::class, 'home'])->name('home');
+Route::get('/about', [CustomAuthController::class, 'about'])->name('about');

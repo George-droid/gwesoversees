@@ -10,4 +10,9 @@ class CustomAuthController extends Controller
     {
         return view('fe.pages.home');
     }
+
+    public function about()
+    {
+        return view('fe.pages.about');
+    }
 }

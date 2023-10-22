@@ -4,7 +4,7 @@
     <!-- ***** Main Banner Area Start ***** -->
     <section class="section main-banner" id="top" data-section="section1">
         <video autoplay muted loop id="bg-video">
-            <source src="assets/images/course-video.mp4" type="video/mp4" />
+            <source src="{{ asset('images/course-video.mp4')}}" type="video/mp4" />
         </video>
 
         <div class="video-overlay header-text">
@@ -88,7 +88,7 @@
                 <article id='tabs-1'>
                 <div class="row">
                     <div class="col-md-6">
-                    <img src="assets/images/choose-us-image-01.png" alt="">
+                    <img src="{{ asset('images/expert-guidance.png')}}" alt="">
                     </div>
                     <div class="col-md-6">
                     <h4>Expert Guidance</h4>
@@ -101,7 +101,7 @@
                 <article id='tabs-2'>
                 <div class="row">
                     <div class="col-md-6">
-                    <img src="assets/images/choose-us-image-02.png" alt="">
+                    <img src="{{ asset('images/test-prep1.png')}}" alt="">
                     </div>
                     <div class="col-md-6">
                     <h4>Accredited Test Preparation</h4>
@@ -113,7 +113,7 @@
                 <article id='tabs-3'>
                 <div class="row">
                     <div class="col-md-6">
-                    <img src="assets/images/choose-us-image-03.png" alt="">
+                    <img src="{{ asset('images/student-support2.png')}}" alt="">
                     </div>
                     <div class="col-md-6">
                     <h4>End-to-End Support</h4>
@@ -427,7 +427,7 @@
         <div class="col-lg-12">
             <div class="post featured-post-lg">
             <div class="post-content row">
-                <img src="assets/images/services.svg" class="col-lg-6">
+                <img src="{{ asset('images/services.svg')}}" class="col-lg-6">
                 <!-- <a href="" class="category-badge">Study Abroad</a> -->
                 <div class="services col-lg-6">
                 <h2 class="post-title"><a href="">We Offer These Serives</a></h2>
@@ -463,40 +463,40 @@
     <section class="section video" data-section="section5">
     <div class="container">
         <div class="row">
-        <div class="col-md-6 align-self-center">
-            <div class="left-content">
-            <span>Testimonial</span>
-            <h4>Meet a few successful <em>candidates of Goldenway</em></h4>
-            <p>The road to success begins with a step towards goal.
-            <br><br>Learn how others took a step with us and are in line with their goals</p>
-            <!-- <div class="main-button"><a rel="nofollow" href="https://fb.com/templatemo" target="_parent">External URL</a></div> -->
+            <div class="col-md-6 align-self-center">
+                <div class="left-content">
+                <span>Testimonial</span>
+                <h4>Meet a few successful <em>candidates of Goldenway</em></h4>
+                <p>The road to success begins with a step towards goal.
+                <br><br>Learn how others took a step with us and are in line with their goals</p>
+                <!-- <div class="main-button"><a rel="nofollow" href="https://fb.com/templatemo" target="_parent">External URL</a></div> -->
+                </div>
             </div>
-        </div>
-        <div class="col-md-6">
-            <article class="video-item">
-            <div class="video-caption">
-                <h4>Listen to our students</h4>
+            <div class="col-md-6">
+                <article class="video-item">
+                <div class="video-caption">
+                    <h4>Listen to our students</h4>
+                </div>
+                <figure>
+                    <a href="https://www.youtube.com/watch?v=r9LtOG6pNUw" class="play"><img src="assets/images/main-thumb.png"></a>
+                </figure>
+                </article>
             </div>
-            <figure>
-                <a href="https://www.youtube.com/watch?v=r9LtOG6pNUw" class="play"><img src="assets/images/main-thumb.png"></a>
-            </figure>
-            </article>
-        </div>
         </div>
     </div>
     </section>
 
     <section class="partners-section">
-    <div class="col-md-12">
-        <div class="section-heading">
-        <h2>OUR PARTNERS</h2>
+        <div class="col-md-12">
+            <div class="section-heading">
+            <h2>OUR DESTINATIONS</h2>
+            </div>
         </div>
-    </div>
     <div class="carousel ">
         <div class="carousel-container  container-fluid">
 
             <div class=" col-md-6 col-lg-4 partner-card">
-            <img src="assets/images/usa.jpg" class="card-img-top" alt="partner-01" preload >
+            <img src="{{ asset('images/usa.jpg')}}" class="card-img-top" alt="partner-01" preload >
             <div class="partner-title "> Study In USA</div>
             <div class="partner-details">
                 <p>We have partners in different schools </p>
@@ -507,7 +507,7 @@
             </div>
 
             <div class= " col-md-6 col-lg-4 partner-card  ">
-            <img src="assets/images/canada.jpg"  class="card-img-top" alt="partner-02" preload>
+            <img src="{{ asset('images/canada.jpg')}}"  class="card-img-top" alt="partner-02" preload>
             <div class="partner-title"> Study In Canada</div>
             <div class="partner-details">
                 <p>We have partners in different schools </p>
@@ -518,7 +518,7 @@
             </div>
 
             <div class=" col-md-6 col-lg-4 partner-card">
-            <img src="assets/images/london.jpg"  class="card-img-top" alt="partner-03" preload>
+            <img src="{{ asset('images/london.jpg')}}"  class="card-img-top" alt="partner-03" preload>
             <div class="partner-title"> Study In UK</div>
             <div class="partner-details">
                 <p>We have partners in different schools </p>
@@ -529,7 +529,7 @@
             </div>
 
             <div class=" col-md-6 col-lg-4 partner-card ">
-            <img src="assets/images/australia.jpg"  class="card-img-top" alt="partner-04" preload>
+            <img src="{{ asset('images/australia.jpg')}}"  class="card-img-top" alt="partner-04" preload>
             <div class="partner-title"> Study In Australia</div>
             <div class="partner-details">
                 <p>We have partners in different schools </p>
@@ -541,7 +541,7 @@
         
 
             <div class=" col-md-6 col-lg-4 partner-card">
-            <img src="assets/images/germany.jpg"  class="card-img-top" alt="partner-05" preload>
+            <img src="{{ asset('images/germany.jpg')}}"  class="card-img-top" alt="partner-05" preload>
             <div class="partner-title"> Study In Germany</div>
             <div class="partner-details">
                 <p>We have partners in different schools </p>
@@ -552,7 +552,7 @@
             </div>
 
             <div class="col-md-6 col-lg-4 partner-card ">
-            <img src="assets/images/france.jpg"  class="card-img-top" alt="partner-06" preload>
+            <img src="{{ asset('images/france.jpg')}}"  class="card-img-top" alt="partner-06" preload>
             <div class="partner-title"> Study In France</div>
             <div class="partner-details">
                 <p>We have partners in different schools </p>
@@ -563,7 +563,7 @@
             </div>
 
             <div class="col-md-6 col-lg-4 partner-card ">
-            <img src="assets/images/china.jpg"  class="card-img-top" alt="partner-07" preload>
+            <img src="{{ asset('images/china.jpg')}}"  class="card-img-top" alt="partner-07" preload>
             <div class="partner-title"> Study In China</div>
             <div class="partner-details">
                 <p>We have partners in different schools </p>
@@ -574,7 +574,7 @@
             </div>
 
             <div class="col-md-6 col-lg-4 partner-card">
-            <img src="assets/images/singapore.jpg"  class="card-img-top" alt="partner-08" preload>
+            <img src="{{ asset('images/singapore.jpg')}}"  class="card-img-top" alt="partner-08" preload>
             <div class="partner-title"> Study In Singapore</div>
             <div class="partner-details">
                 <p>We have partners in different schools </p>
@@ -585,7 +585,7 @@
             </div>
 
             <div class="col-md-6 col-lg-4 partner-card ">
-            <img src="assets/images/india.jpg"  class="card-img-top" alt="partner-09" preload>
+            <img src="{{ asset('images/india.jpg')}}"  class="card-img-top" alt="partner-09" preload>
             <div class="partner-title"> Study In India</div>
             <div class="partner-details">
                 <p>We have partners in different schools </p>
@@ -702,16 +702,12 @@
             <div class="row">
             <div class="col-md-12">
                 <div class="section-heading">
-                <h2>Let’s Keep In Touch</h2>
+                <h2>GET IN TOUCH</h2>
                 </div>
             </div>
             <div class="col-md-6">
-            
-            <!-- Do you need a working HTML contact-form script?
-                        
-                        Please visit https://templatemo.com/contact page -->
-                        
                 <form id="contact" action="" method="post">
+                <h3>NEED HELP?</h3>
                 <div class="row">
                     <div class="col-md-6">
                         <fieldset>
@@ -736,9 +732,16 @@
                 </div>
                 </form>
             </div>
-            <div class="col-md-6">
-                <div id="map">
+            <div class="col-md-6 align-self-center">
+                {{-- <div id="map">
                 <iframe src="https://maps.google.com/maps?q=Av.+L%C3%BAcio+Costa,+Rio+de+Janeiro+-+RJ,+Brazil&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="422px" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div> --}}
+                <div class="left-content">
+                    {{-- <span>Testimonial</span> --}}
+                    <h4>For more information </br><em>Don't hesitate to Contact Us</em></h4>
+                    <p>Information is the guiding light that transforms aspirations into achievements.
+                    <br><br>We believe that well-informed choices are the stepping stones to a brighter future.
+                    <br><br> <em>Contact us </em>today to illuminate your path to educational excellence.</p>
                 </div>
             </div>
             </div>

@@ -34,13 +34,13 @@
   <!--header-->
   <header class="main-header clearfix" role="header">
     <div class="logo">
-      <a href="#"><em>Goldenway</em> Oversees</a>
+      <a href="/"><em>Goldenway</em> Oversees</a>
     </div>
     <a href="#menu" class="menu-link"><i class="fa fa-bars"></i></a>
     <nav id="menu" class="main-navbar" role="navigation">
       <ul class="main-menu">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about-us.html">About Us</a></li></li>
+        <li><a href="/">Home</a></li>
+        <li><a href="{{ route('about') }}">About Us</a></li></li>
         <li><a href="blogs.html">Blog</a></li>
         <!-- <li><a href="#section5">Video</a></li> -->
         <li><a href="#">Contact</a></li>
