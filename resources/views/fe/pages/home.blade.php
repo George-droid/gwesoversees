@@ -12,7 +12,7 @@
                 <h6>Goldenway Educational Services</h6>
                 <h2><em>Empowering</em> your future</h2>
                 <div class="main-button">
-                    <div><a href="about-us.html">Discover more</a></div>
+                    <div><a href="{{ route('about') }}">Discover more</a></div>
                 </div>
             </div>
         </div>
@@ -415,47 +415,47 @@
     </section> -->
 
     <section class="blogs-section">
-    <div class="container-xl">
-        <div class="row">
-        <div class="col-md-12">
-            <div class="section-heading">
-            <h2>OUR SERVICES</h2>
+        <div class="container-xl">
+            <div class="row">
+            <div class="col-md-12">
+                <div class="section-heading">
+                <h2>OUR SERVICES</h2>
+                </div>
             </div>
-        </div>
-        </div>
-        <div class="row gy-4">
-        <div class="col-lg-12">
-            <div class="post featured-post-lg">
-            <div class="post-content row">
-                <img src="{{ asset('images/services.svg')}}" class="col-lg-6">
-                <!-- <a href="" class="category-badge">Study Abroad</a> -->
-                <div class="services col-lg-6">
-                <h2 class="post-title"><a href="">We Offer These Serives</a></h2>
-                <!-- <p class="post-excerpt">Here are our core services we provide towards your educational aspirations.</p> -->
-                <div class="row gy-5">
-                    <div class="col-lg-12 mb-2 mt-2">
-                    <div class="p-3 border bg-dark"><i class="fa fa-check-square-o" aria-hidden="true"></i>
-                        University Placements</div>
+            </div>
+            <div class="row gy-4">
+            <div class="col-lg-12">
+                <div class="post featured-post-lg">
+                <div class="post-content row">
+                    <img src="{{ asset('images/services.svg')}}" class="col-lg-6">
+                    <!-- <a href="" class="category-badge">Study Abroad</a> -->
+                    <div class="services col-lg-6">
+                    <h2 class="post-title"><a href="">We Offer These Serives</a></h2>
+                    <!-- <p class="post-excerpt">Here are our core services we provide towards your educational aspirations.</p> -->
+                    <div class="row gy-5">
+                        <div class="col-lg-12 mb-2 mt-2">
+                        <div class="p-3 border bg-dark"><i class="fa fa-check-square-o" aria-hidden="true"></i>
+                            University Placements</div>
+                        </div>
+                        <div class="col-lg-12 mb-2">
+                        <div class="p-3 border bg-dark"><i class="fa fa-check-square-o" aria-hidden="true"></i>
+                            Intensive welfare services for our students</div>
+                        </div>
+                        <div class="col-lg-12 mb-2">
+                        <div class="p-3 mt-2 border bg-dark"><i class="fa fa-check-square-o" aria-hidden="true"></i>
+                            Accredited training for IELTS, TOEFL, SAT, GRE & GMAT</div>
+                        </div>
+                        <div class="col-lg-12">
+                        <div class="p-3 mt-2 border bg-dark"><i class="fa fa-check-square-o" aria-hidden="true"></i>
+                            Comprehensive counselling</div>
+                        </div>
                     </div>
-                    <div class="col-lg-12 mb-2">
-                    <div class="p-3 border bg-dark"><i class="fa fa-check-square-o" aria-hidden="true"></i>
-                        Intensive welfare services for our students</div>
-                    </div>
-                    <div class="col-lg-12 mb-2">
-                    <div class="p-3 mt-2 border bg-dark"><i class="fa fa-check-square-o" aria-hidden="true"></i>
-                        Accredited training for IELTS, TOEFL, SAT, GRE & GMAT</div>
-                    </div>
-                    <div class="col-lg-12">
-                    <div class="p-3 mt-2 border bg-dark"><i class="fa fa-check-square-o" aria-hidden="true"></i>
-                        Comprehensive counselling</div>
                     </div>
                 </div>
                 </div>
             </div>
             </div>
         </div>
-        </div>
-    </div>
     </section>
 
 
@@ -492,116 +492,116 @@
             <h2>OUR DESTINATIONS</h2>
             </div>
         </div>
-    <div class="carousel ">
-        <div class="carousel-container  container-fluid">
+        <div class="carousel ">
+            <div class="carousel-container  container-fluid">
 
-            <div class=" col-md-6 col-lg-4 partner-card">
-            <img src="{{ asset('images/usa.jpg')}}" class="card-img-top" alt="partner-01" preload >
-            <div class="partner-title "> Study In USA</div>
-            <div class="partner-details">
-                <p>We have partners in different schools </p>
-                <p>University of Washington </p>
-                <p>University of California </p>
-                <p>University of Texas </p>
-            </div>
-            </div>
+                <div class=" col-md-6 col-lg-4 partner-card">
+                <img src="{{ asset('images/usa.jpg')}}" class="card-img-top" alt="partner-01" preload >
+                <div class="partner-title "> Study In USA</div>
+                <div class="partner-details">
+                    <p>We have partners in different schools </p>
+                    <p>University of Washington </p>
+                    <p>University of California </p>
+                    <p>University of Texas </p>
+                </div>
+                </div>
 
-            <div class= " col-md-6 col-lg-4 partner-card  ">
-            <img src="{{ asset('images/canada.jpg')}}"  class="card-img-top" alt="partner-02" preload>
-            <div class="partner-title"> Study In Canada</div>
-            <div class="partner-details">
-                <p>We have partners in different schools </p>
-                <p>University of Toronto </p>
-                <p>University of British Columbia </p>
-                <p>University of Alberta </p>
-            </div>
-            </div>
+                <div class= " col-md-6 col-lg-4 partner-card  ">
+                <img src="{{ asset('images/canada.jpg')}}"  class="card-img-top" alt="partner-02" preload>
+                <div class="partner-title"> Study In Canada</div>
+                <div class="partner-details">
+                    <p>We have partners in different schools </p>
+                    <p>University of Toronto </p>
+                    <p>University of British Columbia </p>
+                    <p>University of Alberta </p>
+                </div>
+                </div>
 
-            <div class=" col-md-6 col-lg-4 partner-card">
-            <img src="{{ asset('images/london.jpg')}}"  class="card-img-top" alt="partner-03" preload>
-            <div class="partner-title"> Study In UK</div>
-            <div class="partner-details">
-                <p>We have partners in different schools </p>
-                <p>University of Oxford </p>
-                <p>University of Cambridge </p>
-                <p>Imperial College London </p>
-            </div>
-            </div>
+                <div class=" col-md-6 col-lg-4 partner-card">
+                <img src="{{ asset('images/london_n.jpg')}}"  class="card-img-top" alt="partner-03" preload>
+                <div class="partner-title"> Study In UK</div>
+                <div class="partner-details">
+                    <p>We have partners in different schools </p>
+                    <p>University of Oxford </p>
+                    <p>University of Cambridge </p>
+                    <p>Imperial College London </p>
+                </div>
+                </div>
 
-            <div class=" col-md-6 col-lg-4 partner-card ">
-            <img src="{{ asset('images/australia.jpg')}}"  class="card-img-top" alt="partner-04" preload>
-            <div class="partner-title"> Study In Australia</div>
-            <div class="partner-details">
-                <p>We have partners in different schools </p>
-                <p>University of Melbourne </p>
-                <p>University of Sydney </p>
-                <p>University of Queensland </p>
-            </div>
-            </div>
-        
+                <div class=" col-md-6 col-lg-4 partner-card ">
+                <img src="{{ asset('images/australia.jpg')}}"  class="card-img-top" alt="partner-04" preload>
+                <div class="partner-title"> Study In Australia</div>
+                <div class="partner-details">
+                    <p>We have partners in different schools </p>
+                    <p>University of Melbourne </p>
+                    <p>University of Sydney </p>
+                    <p>University of Queensland </p>
+                </div>
+                </div>
+            
 
-            <div class=" col-md-6 col-lg-4 partner-card">
-            <img src="{{ asset('images/germany.jpg')}}"  class="card-img-top" alt="partner-05" preload>
-            <div class="partner-title"> Study In Germany</div>
-            <div class="partner-details">
-                <p>We have partners in different schools </p>
-                <p>Technical University of Munich </p>
-                <p>Ludwig Maximilian University of Munich </p>
-                <p>Heidelberg University </p>
-            </div>
-            </div>
+                <div class=" col-md-6 col-lg-4 partner-card">
+                <img src="{{ asset('images/germany_n.jpg')}}"  class="card-img-top" alt="partner-05" preload>
+                <div class="partner-title"> Study In Germany</div>
+                <div class="partner-details">
+                    <p>We have partners in different schools </p>
+                    <p>Technical University of Munich </p>
+                    <p>Ludwig Maximilian University of Munich </p>
+                    <p>Heidelberg University </p>
+                </div>
+                </div>
 
-            <div class="col-md-6 col-lg-4 partner-card ">
-            <img src="{{ asset('images/france.jpg')}}"  class="card-img-top" alt="partner-06" preload>
-            <div class="partner-title"> Study In France</div>
-            <div class="partner-details">
-                <p>We have partners in different schools </p>
-                <p>University of Paris </p>
-                <p>University of Montpellier </p>
-                <p>University of Strasbourg </p>
-            </div>
-            </div>
+                <div class="col-md-6 col-lg-4 partner-card ">
+                <img src="{{ asset('images/france_n.jpg')}}"  class="card-img-top" alt="partner-06" preload>
+                <div class="partner-title"> Study In France</div>
+                <div class="partner-details">
+                    <p>We have partners in different schools </p>
+                    <p>University of Paris </p>
+                    <p>University of Montpellier </p>
+                    <p>University of Strasbourg </p>
+                </div>
+                </div>
 
-            <div class="col-md-6 col-lg-4 partner-card ">
-            <img src="{{ asset('images/china.jpg')}}"  class="card-img-top" alt="partner-07" preload>
-            <div class="partner-title"> Study In China</div>
-            <div class="partner-details">
-                <p>We have partners in different schools </p>
-                <p>Tsinghua University </p>
-                <p>Peking University </p>
-                <p>Zhejiang University </p>
-            </div>
-            </div>
+                <div class="col-md-6 col-lg-4 partner-card ">
+                <img src="{{ asset('images/china_n.jpg')}}"  class="card-img-top" alt="partner-07" preload>
+                <div class="partner-title"> Study In China</div>
+                <div class="partner-details">
+                    <p>We have partners in different schools </p>
+                    <p>Tsinghua University </p>
+                    <p>Peking University </p>
+                    <p>Zhejiang University </p>
+                </div>
+                </div>
 
-            <div class="col-md-6 col-lg-4 partner-card">
-            <img src="{{ asset('images/singapore.jpg')}}"  class="card-img-top" alt="partner-08" preload>
-            <div class="partner-title"> Study In Singapore</div>
-            <div class="partner-details">
-                <p>We have partners in different schools </p>
-                <p>National University of Singapore </p>
-                <p>Nanyang Technological University </p>
-                <p>Singapore Management University </p>
-            </div>
-            </div>
+                <div class="col-md-6 col-lg-4 partner-card">
+                <img src="{{ asset('images/singapore.jpg')}}"  class="card-img-top" alt="partner-08" preload>
+                <div class="partner-title"> Study In Singapore</div>
+                <div class="partner-details">
+                    <p>We have partners in different schools </p>
+                    <p>National University of Singapore </p>
+                    <p>Nanyang Technological University </p>
+                    <p>Singapore Management University </p>
+                </div>
+                </div>
 
-            <div class="col-md-6 col-lg-4 partner-card ">
-            <img src="{{ asset('images/india.jpg')}}"  class="card-img-top" alt="partner-09" preload>
-            <div class="partner-title"> Study In India</div>
-            <div class="partner-details">
-                <p>We have partners in different schools </p>
-                <p>Indian Institute of Science </p>
-                <p>Indian Institute of Technology Bombay </p>
-                <p>Indian Institute of Technology Delhi </p>
-            </div>
-            </div>
+                <div class="col-md-6 col-lg-4 partner-card ">
+                <img src="{{ asset('images/india_n.jpg')}}"  class="card-img-top" alt="partner-09" preload>
+                <div class="partner-title"> Study In India</div>
+                <div class="partner-details">
+                    <p>We have partners in different schools </p>
+                    <p>Indian Institute of Science </p>
+                    <p>Indian Institute of Technology Bombay </p>
+                    <p>Indian Institute of Technology Delhi </p>
+                </div>
+                </div>
 
-        
+            
+            </div>
         </div>
-    </div>
-    <div class="carousel-controls justify-content-center">
-        <button id="prev-button"> </button>
-        <button id="next-button"> </button>
-    </div>
+        <div class="carousel-controls justify-content-center">
+            <button id="prev-button"> </button>
+            <button id="next-button"> </button>
+        </div>
     </section>
 
     <section class="blogs-section">
