@@ -1779,6 +1779,18 @@ section.contact form button {
   margin-bottom: 10px;
 }
 
+.post-main-title {
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.post-sub-title {
+  font-size: 19px;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
 .post-excerpt {
   font-size: 16px;
   margin-bottom: 10px;

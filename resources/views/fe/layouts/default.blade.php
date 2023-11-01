@@ -42,7 +42,7 @@
       <ul class="main-menu">
         <li><a href="/">Home</a></li>
         <li><a href="{{ route('about') }}">About Us</a></li></li>
-        <li><a href="blogs.html">Blog</a></li>
+        <li><a href="{{ route('blogs') }}">Blog</a></li>
         <!-- <li><a href="#section5">Video</a></li> -->
         <li><a href="#">Contact</a></li>
         <!-- <li><a href="" class="external">External</a></li> -->

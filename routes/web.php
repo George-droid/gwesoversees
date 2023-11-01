@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\BlogController;
 use App\Http\Controllers\CustomAuthController;
 
 /*
@@ -19,3 +20,9 @@ use App\Http\Controllers\CustomAuthController;
 
 Route::get('/', [CustomAuthController::class, 'home'])->name('home');
 Route::get('/about', [CustomAuthController::class, 'about'])->name('about');
+
+Route::get('/blogs', [BlogController::class, 'blogs'])->name('blogs');
+Route::get('/blog-1', [BlogController::class, 'blog1'])->name('blog1');
+Route::get('/blog-2', [BlogController::class, 'blog2'])->name('blog2');
+Route::get('/blog-3', [BlogController::class, 'blog3'])->name('blog3');
+Route::get('/blog-4', [BlogController::class, 'blog4'])->name('blog4');
