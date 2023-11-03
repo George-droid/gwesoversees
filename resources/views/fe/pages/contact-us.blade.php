@@ -13,7 +13,7 @@
             <h6>Goldenway Educational Services</h6>
             <h2><em>CONTACT</em> US</h2>
             <div class="main-button">
-                <div><a href="index.html">Home</a></div>
+                <div><a href="{{ route('home') }}">Home</a></div>
             </div>
         </div>
     </div>
