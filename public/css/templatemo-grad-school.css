@@ -1690,6 +1690,13 @@ section.contact form button {
   margin: 10px 0;
 }
 
+.contact-form-title {
+  font-size: 1.5rem; /* Adjust the font size as needed */
+  font-weight: bold;
+  margin: 10px 0;
+  color: #ffffff;
+}
+
 .partner-details p {
   margin: 5px 0;
 }
@@ -1762,6 +1769,32 @@ section.contact form button {
   background-color: rgba(0, 0, 0, 0.5); /* Background overlay color */
   padding: 20px;
   border-radius: 10px;
+}
+
+.post-content-contact {
+  background-color: rgba(0, 0, 0, 0.5); /* Background overlay color */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.post-content-contact .partner-card {
+  color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.align-middle {
+  vertical-align: middle !important;
+}
+
+.contact-card {
+  width: 300px;
+  margin: 20px;
+  padding: 10px;
+  background-color: #343a40;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  display: inline-block;
+ 
 }
 
 .category-badge {

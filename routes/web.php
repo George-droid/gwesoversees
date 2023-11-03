@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\BlogController;
+use App\Http\Controllers\ContactController;
 use App\Http\Controllers\CustomAuthController;
 
 /*
@@ -20,6 +21,8 @@ use App\Http\Controllers\CustomAuthController;
 
 Route::get('/', [CustomAuthController::class, 'home'])->name('home');
 Route::get('/about', [CustomAuthController::class, 'about'])->name('about');
+Route::get('/contact-us', [ContactController::class, 'contact'])->name('contact');
+Route::post('/contact-us/submit', [ContactController::class, 'submitContactForm'])->name('contact.submit');
 
 Route::get('/blogs', [BlogController::class, 'blogs'])->name('blogs');
 Route::get('/blog-1', [BlogController::class, 'blog1'])->name('blog1');

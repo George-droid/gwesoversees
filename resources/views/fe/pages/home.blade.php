@@ -478,7 +478,7 @@
                     <h4>Listen to our students</h4>
                 </div>
                 <figure>
-                    <a href="https://www.youtube.com/watch?v=r9LtOG6pNUw" class="play"><img src="assets/images/main-thumb.png"></a>
+                    <a href="https://www.youtube.com/watch?v=r9LtOG6pNUw" class="play"><img src="{{ asset('images/main-thumb.png')}}"></a>
                 </figure>
                 </article>
             </div>
