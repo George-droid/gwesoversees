@@ -29,3 +29,7 @@ Route::get('/blog-1', [BlogController::class, 'blog1'])->name('blog1');
 Route::get('/blog-2', [BlogController::class, 'blog2'])->name('blog2');
 Route::get('/blog-3', [BlogController::class, 'blog3'])->name('blog3');
 Route::get('/blog-4', [BlogController::class, 'blog4'])->name('blog4');
+
+Route::get('/destinations', [BlogController::class, 'destinations'])->name('destinations');
+
+
