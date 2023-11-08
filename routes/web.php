@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\CustomAuthController;
+use App\Http\Controllers\DestinationController;
 
 /*
 |--------------------------------------------------------------------------
@@ -30,6 +31,6 @@ Route::get('/blog-2', [BlogController::class, 'blog2'])->name('blog2');
 Route::get('/blog-3', [BlogController::class, 'blog3'])->name('blog3');
 Route::get('/blog-4', [BlogController::class, 'blog4'])->name('blog4');
 
-Route::get('/destinations', [BlogController::class, 'destinations'])->name('destinations');
+Route::get('/destinations', [DestinationController::class, 'destinations'])->name('destinations');
 
 

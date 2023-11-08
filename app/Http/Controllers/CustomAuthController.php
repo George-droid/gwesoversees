@@ -15,4 +15,9 @@ class CustomAuthController extends Controller
     {
         return view('fe.pages.about');
     }
+
+    public function destinations()
+    {
+        return view('fe.pages.destinations');
+    }
 }

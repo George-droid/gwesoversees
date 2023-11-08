@@ -15,7 +15,7 @@
     <!-- Bootstrap core CSS -->
     {{-- <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> --}}
     <link href="{{ asset('bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Additional CSS Files -->
     <link href="{{ asset('css/fontawesome.css')}}" rel="stylesheet">
@@ -25,6 +25,8 @@
     <link href="{{ asset('css/templatemo-grad-school.css')}}" rel="stylesheet">
     <link href="{{ asset('css/owl.css')}}" rel="stylesheet">
     <link href="{{ asset('css/lightbox.css')}}" rel="stylesheet">
+
+    {{-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> --}}
 
   </head>
 
@@ -89,6 +91,7 @@
     <script src="vendor/jquery/jquery.min.js"></script>
    
     <script src="{{ asset('bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
     <script src="{{ asset('js/isotope.min.js')}}"></script>
     <script src="{{ asset('js/owl-carousel.js')}}"></script>
@@ -97,6 +100,9 @@
     <script src="{{ asset('js/video.js')}}"></script>
     <script src="{{ asset('js/slick-slider.js')}}"></script>
     <script src="{{ asset('js/custom.js')}}"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    {{-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> --}}
 
 
  <!-- Counter Javascript  -->
@@ -147,6 +153,30 @@
 
 
   </script>
+
+ <!-- Counter Javascript  -->
+ {{-- <script>
+  $(document).ready(function() {
+      $('.dropdown-toggle').dropdown();
+  });
+</script> --}}
+
+{{-- <script>
+  $(function() {
+      // Dropdown toggle
+      $('.dropdown-toggle').click(function() {
+          $(this).next('.dropdown').slideToggle();
+      });
+
+      $(document).click(function(e) {
+          var target = e.target;
+          if (!$(target).is('.dropdown-toggle') && !$(target).parents().is('.dropdown-toggle')) {
+              $('.dropdown').slideUp();
+          }
+      });
+  });
+</script> --}}
+
 
 </body>
 </html>

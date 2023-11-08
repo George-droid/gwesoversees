@@ -494,18 +494,18 @@
         </div>
         <div class="carousel ">
             <div class="carousel-container  container-fluid">
-
-                <div class=" col-md-6 col-lg-4 partner-card">
-                <img src="{{ asset('images/usa.jpg')}}" class="card-img-top" alt="partner-01" preload >
-                <div class="partner-title "> Study In USA</div>
-                <div class="partner-details">
-                    <p>We have partners in different schools </p>
-                    <p>University of Washington </p>
-                    <p>University of California </p>
-                    <p>University of Texas </p>
-                </div>
-                </div>
-
+                <a href="{{ route('destinations') }}">
+                    <div class=" col-md-6 col-lg-4 partner-card">
+                    <img src="{{ asset('images/usa.jpg')}}" class="card-img-top" alt="partner-01" preload >
+                    <div class="partner-title ">  Study In USA </div>
+                    {{-- <div class="partner-details">
+                        <p>We have partners in different schools </p>
+                        <p>University of Washington </p>
+                        <p>University of California </p>
+                        <p>University of Texas </p>
+                    </div> --}}
+                    </div>
+                </a>
                 <div class= " col-md-6 col-lg-4 partner-card  ">
                 <img src="{{ asset('images/canada.jpg')}}"  class="card-img-top" alt="partner-02" preload>
                 <div class="partner-title"> Study In Canada</div>

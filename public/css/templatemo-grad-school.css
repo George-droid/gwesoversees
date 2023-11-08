@@ -1532,6 +1532,37 @@ img.mfp-img {
 }
 
 
+/* Destinations */
+ .destination-dropdown {
+  background-color: rgba(250,250,250,0.1);
+  padding: 30px;
+  width: 100%;
+}
+
+.custom-dropdown-button {
+  background-color: #333; /* Darker color for the button */
+  border-radius: 5px; /* Less rounded edges */
+  width: 100%;
+  text-align: left;
+}
+
+.custom-dropdown-button:hover,
+.custom-dropdown-button:focus {
+    background-color: #555; /* Darker color on hover/focus */
+    content: "";
+    float: right;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid white;
+}
+
+.custom-dropdown-button::after {
+  content: "";
+  float: right;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid white; /* Caret (toggle sign) on the right */
+}
 
 /* Contact */
 

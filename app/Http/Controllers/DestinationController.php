@@ -16,6 +16,11 @@ class DestinationController extends Controller
         //
     }
 
+    public function destinations()
+    {
+        return view('fe.pages.destinations');
+    }
+
     /**
      * Show the form for creating a new resource.
      */
