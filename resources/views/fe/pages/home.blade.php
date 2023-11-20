@@ -706,30 +706,41 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <form id="contact" action="" method="post">
-                <h3>NEED HELP?</h3>
-                <div class="row">
-                    <div class="col-md-6">
+                <form id="contact" action="{{ route('contact.submit') }}" method="post">
+                    @csrf
+                    <h3>NEED HELP?</h3>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <fieldset>
+                                <input name="name" type="text" class="form-control" id="name" placeholder="Your Name" required="">
+                            </fieldset>
+                            </div>
+                            <div class="col-md-12">
+                            <fieldset>
+                                <input name="email" type="email" class="form-control" id="email" placeholder="Your Email" required="">
+                            </fieldset>
+                            </div>
+                            <div class="col-md-12">
+                                <fieldset>
+                                    <input name="phone" type="text" class="form-control" id="phone" placeholder="Your Phone Number" required="">
+                                </fieldset>
+                            </div>
+                            <div class="col-md-12">
+                                <fieldset>
+                                    <input name="subject" type="text" class="form-control" id="subject" placeholder="Subject" required="">
+                                </fieldset>
+                            </div>
+                            <div class="col-md-12">
+                                <fieldset>
+                                <textarea name="message" rows="4" class="form-control" id="message" placeholder="Your message..." required=""></textarea>
+                                </fieldset>
+                            </div>
+                        <div class="col-md-12">
                         <fieldset>
-                        <input name="name" type="text" class="form-control" id="name" placeholder="Your Name" required="">
+                            <button type="submit" id="form-submit" class="button">Send Message Now</button>
                         </fieldset>
+                        </div>
                     </div>
-                    <div class="col-md-6">
-                        <fieldset>
-                        <input name="email" type="text" class="form-control" id="email" placeholder="Your Email" required="">
-                        </fieldset>
-                    </div>
-                    <div class="col-md-12">
-                    <fieldset>
-                        <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your message..." required=""></textarea>
-                    </fieldset>
-                    </div>
-                    <div class="col-md-12">
-                    <fieldset>
-                        <button type="submit" id="form-submit" class="button">Send Message Now</button>
-                    </fieldset>
-                    </div>
-                </div>
                 </form>
             </div>
             <div class="col-md-6 align-self-center">
