@@ -32,7 +32,7 @@
                 <div class="content-hide">
                 <p>We are a group of committed educational experts with years of experience. Our experienced counselors are well-versed in international educational systems, admission procedures, and scholarship prospects.</p>
                 <p class="hidden-sm">Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis eros a posuere imperdiet.</p>
-                <div class="scroll-to-section"><a href="#section2">More Info.</a></div>
+                {{-- <div class="scroll-to-section"><a href="#section2">More Info.</a></div> --}}
             </div>
             </div>
             </div>
@@ -46,7 +46,7 @@
                 <div class="content-hide">
                 <p>We understand the unique needs of Nigerian and African parents and students while also having a vast network of connections with reputable institutions worldwide.</p>
                 <p class="hidden-sm">Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis eros a posuere imperdiet.</p>
-                <div class="scroll-to-section"><a href="#section3">Details</a></div>
+                {{-- <div class="scroll-to-section"><a href="#section3">Details</a></div> --}}
             </div>
             </div>
             </div>
@@ -60,7 +60,7 @@
                 <div class="content-hide">
                 <p>Our mission is to be your guiding light as you pursue admissions and placements at prestigious international institutions. We are here to serve you by empowering you, providing complete solutions, and unlocking prospects for a brighter future.</p>
                 <p class="hidden-sm">Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis eros a posuere imperdiet.</p>
-                <div class="scroll-to-section"><a href="#section4">Read More</a></div>
+                {{-- <div class="scroll-to-section"><a href="#section4">Read More</a></div> --}}
             </div>
             </div>
             </div>
@@ -494,7 +494,7 @@
         </div>
         <div class="carousel ">
             <div class="carousel-container  container-fluid">
-                <a href="{{ route('destinations') }}">
+                {{-- <a href="{{ route('destinations') }}"> --}}
                     <div class=" col-md-6 col-lg-4 partner-card">
                     <img src="{{ asset('images/usa.jpg')}}" class="card-img-top" alt="partner-01" preload >
                     <div class="partner-title ">  Study In USA </div>
@@ -505,94 +505,94 @@
                         <p>University of Texas </p>
                     </div> --}}
                     </div>
-                </a>
+                {{-- </a> --}}
                 <div class= " col-md-6 col-lg-4 partner-card  ">
                 <img src="{{ asset('images/canada.jpg')}}"  class="card-img-top" alt="partner-02" preload>
                 <div class="partner-title"> Study In Canada</div>
-                <div class="partner-details">
+                {{-- <div class="partner-details">
                     <p>We have partners in different schools </p>
                     <p>University of Toronto </p>
                     <p>University of British Columbia </p>
                     <p>University of Alberta </p>
-                </div>
+                </div> --}}
                 </div>
 
                 <div class=" col-md-6 col-lg-4 partner-card">
                 <img src="{{ asset('images/london_n.jpg')}}"  class="card-img-top" alt="partner-03" preload>
                 <div class="partner-title"> Study In UK</div>
-                <div class="partner-details">
+                {{-- <div class="partner-details">
                     <p>We have partners in different schools </p>
                     <p>University of Oxford </p>
                     <p>University of Cambridge </p>
                     <p>Imperial College London </p>
-                </div>
+                </div> --}}
                 </div>
 
                 <div class=" col-md-6 col-lg-4 partner-card ">
                 <img src="{{ asset('images/australia.jpg')}}"  class="card-img-top" alt="partner-04" preload>
                 <div class="partner-title"> Study In Australia</div>
-                <div class="partner-details">
+                {{-- <div class="partner-details">
                     <p>We have partners in different schools </p>
                     <p>University of Melbourne </p>
                     <p>University of Sydney </p>
                     <p>University of Queensland </p>
-                </div>
+                </div> --}}
                 </div>
             
 
                 <div class=" col-md-6 col-lg-4 partner-card">
                 <img src="{{ asset('images/germany_n.jpg')}}"  class="card-img-top" alt="partner-05" preload>
                 <div class="partner-title"> Study In Germany</div>
-                <div class="partner-details">
+                {{-- <div class="partner-details">
                     <p>We have partners in different schools </p>
                     <p>Technical University of Munich </p>
                     <p>Ludwig Maximilian University of Munich </p>
                     <p>Heidelberg University </p>
-                </div>
+                </div> --}}
                 </div>
 
                 <div class="col-md-6 col-lg-4 partner-card ">
                 <img src="{{ asset('images/france_n.jpg')}}"  class="card-img-top" alt="partner-06" preload>
                 <div class="partner-title"> Study In France</div>
-                <div class="partner-details">
+                {{-- <div class="partner-details">
                     <p>We have partners in different schools </p>
                     <p>University of Paris </p>
                     <p>University of Montpellier </p>
                     <p>University of Strasbourg </p>
-                </div>
+                </div> --}}
                 </div>
 
                 <div class="col-md-6 col-lg-4 partner-card ">
                 <img src="{{ asset('images/china_n.jpg')}}"  class="card-img-top" alt="partner-07" preload>
                 <div class="partner-title"> Study In China</div>
-                <div class="partner-details">
+                {{-- <div class="partner-details">
                     <p>We have partners in different schools </p>
                     <p>Tsinghua University </p>
                     <p>Peking University </p>
                     <p>Zhejiang University </p>
-                </div>
+                </div> --}}
                 </div>
 
                 <div class="col-md-6 col-lg-4 partner-card">
                 <img src="{{ asset('images/singapore.jpg')}}"  class="card-img-top" alt="partner-08" preload>
                 <div class="partner-title"> Study In Singapore</div>
-                <div class="partner-details">
+                {{-- <div class="partner-details">
                     <p>We have partners in different schools </p>
                     <p>National University of Singapore </p>
                     <p>Nanyang Technological University </p>
                     <p>Singapore Management University </p>
-                </div>
+                </div> --}}
                 </div>
 
                 <div class="col-md-6 col-lg-4 partner-card ">
                 <img src="{{ asset('images/india_n.jpg')}}"  class="card-img-top" alt="partner-09" preload>
                 <div class="partner-title"> Study In India</div>
-                <div class="partner-details">
+                {{-- <div class="partner-details">
                     <p>We have partners in different schools </p>
                     <p>Indian Institute of Science </p>
                     <p>Indian Institute of Technology Bombay </p>
                     <p>Indian Institute of Technology Delhi </p>
-                </div>
+                </div> --}}
                 </div>
 
             
@@ -617,12 +617,12 @@
         <div class="col-lg-8">
             <div class="post featured-post-lg">
             <div class="post-content">
-                <a href="blogs.html" class="category-badge">Study Abroad</a>
-                <h2 class="post-title"><a href="blog-single/blog-1.html">Choosing the Right Study Destination: Factors to Consider</a></h2>
+                <a href="{{ route('blogs') }}" class="category-badge">Study Abroad</a>
+                <h2 class="post-title"><a href="{{ route('choosing-the-right') }}">Choosing the Right Study Destination: Factors to Consider</a></h2>
                 <p class="post-excerpt">Selecting the perfect study destination is a critical decision for any aspiring international student. Our blog post delves into the key factors to consider, including the cost of living, language barriers, and cultural fit. Learn how to make an informed choice that aligns with your educational and lifestyle goals.</p>
                 <ul class="post-meta list-inline">
                 <li class="list-inline-item"><i class="far fa-user"></i> Karen Doe</li>
-                <li class="list-inline-item"><i class="far fa-calendar"></i> 29 March 2021</li>
+                <li class="list-inline-item"><i class="far fa-calendar"></i> 28 Oct 2023</li>
                 </ul>
             </div>
             </div>
@@ -647,29 +647,35 @@
                 <div class="tab-pane fade show active" id="popular" role="tabpanel">
 
                 <div class="details clearfix">
-                    <h6 class="post-title my-0"><a href="blog-single/blog-3.html">Navigating the Application Process: Tips for Studying Abroad</a>
+                    <h6 class="post-title my-0"><a href="{{ route('navigating-the-application') }}">Navigating the Application Process: Tips for Studying Abroad</a>
                     </h6>
                     <ul class="meta list-inline mb-0 mt-1">
-                    <li class="list-inline-item">02 July 2021</li>
+                    <li class="list-inline-item">15 Aug 2023</li>
                     </ul>
                 </div>
 
-                <div class="details clearfix">
+                {{-- <div class="details clearfix">
                     <h6 class="post-title my-0"><a href="#">Maintaining a Healthy Work-Study-Life Balance Abroad</a></h6>
                     <ul class="meta list-inline mb-0 mt-1">
                     <li class="list-inline-item">29 March 2021</li>
                     </ul>
-                </div>
+                </div> --}}
 
                 <div class="details clearfix">
-                    <h6 class="post-title my-0"><a href="#">Cultural Adjustment: Thriving in a New Environment</a></h6>
+                    <h6 class="post-title my-0"><a href="{{ route('cultural-adjustment') }}">Cultural Adjustment: Thriving in a New Environment</a></h6>
                     <ul class="meta list-inline mb-0 mt-1">
-                    <li class="list-inline-item">09 September 2021</li>
+                    <li class="list-inline-item">29 July 2023</li>
                     </ul>
                 </div>
                 </div>
                 
                 <div class="tab-pane fade show" id="recent" role="tabpanel">
+                    <div class="details clearfix">
+                        <h6 class="post-title my-0"><a href="{{ route('choosing-the-right') }}">Choosing the Right Study Destination: Factors to Consider"</a></h6>
+                        <ul class="meta list-inline mb-0 mt-1">
+                            <li class="list-inline-item">28 Oct 2023</li>
+                        </ul>
+                    </div>
                     <div class="details clearfix">
                     <h6 class="post-title my-0"><a href="#">Post-Study Abroad: Leveraging Your Experience for Success</a></h6>
                     <ul class="meta list-inline mb-0 mt-1">
@@ -677,15 +683,9 @@
                     </ul>
                     </div>
                     <div class="details clearfix">
-                    <h6 class="post-title my-0"><a href="#">Choosing the Right Study Destination: Factors to Consider"</a></h6>
+                    <h6 class="post-title my-0"><a href="{{ route('navigating-the-application') }}">Navigating the Application Process: Tips for Studying Abroad</a></h6>
                     <ul class="meta list-inline mb-0 mt-1">
-                        <li class="list-inline-item">30 January 2023</li>
-                    </ul>
-                    </div>
-                    <div class="details clearfix">
-                    <h6 class="post-title my-0"><a href="#">Navigating the Application Process: Tips for Studying Abroad</a></h6>
-                    <ul class="meta list-inline mb-0 mt-1">
-                        <li class="list-inline-item">15 November 2022</li>
+                        <li class="list-inline-item">15 Aug 2023</li>
                     </ul>
                     </div>
                 </div>

@@ -26,10 +26,10 @@ Route::get('/contact-us', [ContactController::class, 'contact'])->name('contact'
 Route::post('/contact-us/submit', [ContactController::class, 'submitContactForm'])->name('contact.submit');
 
 Route::get('/blogs', [BlogController::class, 'blogs'])->name('blogs');
-Route::get('/blog-1', [BlogController::class, 'blog1'])->name('blog1');
-Route::get('/blog-2', [BlogController::class, 'blog2'])->name('blog2');
-Route::get('/blog-3', [BlogController::class, 'blog3'])->name('blog3');
-Route::get('/blog-4', [BlogController::class, 'blog4'])->name('blog4');
+Route::get('/blogs/choosing-the-right', [BlogController::class, 'blog1'])->name('choosing-the-right');
+Route::get('/blogs/benefits-of-studying', [BlogController::class, 'blog2'])->name('benefits-of-studying');
+Route::get('/blog-3/navigating-the-application', [BlogController::class, 'blog3'])->name('navigating-the-application');
+Route::get('/blog-4/cultural-adjustment', [BlogController::class, 'blog4'])->name('cultural-adjustment');
 
 Route::get('/destinations', [DestinationController::class, 'destinations'])->name('destinations');
 

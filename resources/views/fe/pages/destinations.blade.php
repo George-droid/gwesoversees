@@ -11,7 +11,7 @@
     <div class="hero-overlay header-text">
         <div class="caption">
             <h6>Goldenway Educational Services</h6>
-            <h2><em>DESRINATIONS</em></h2>
+            <h2><em>DESTINATIONS</em></h2>
             <div class="main-button">
                 <div><a href="{{ route('home') }}">Home</a></div>
             </div>
@@ -34,12 +34,12 @@
         <h2 class="d-flex justify-content-center">List of Country Destinations</h2>                                       
         <div class="container">
             <div class="row d-flex justify-content-center">
-                <div class="col-md-8"> <!-- Button occupies 8 columns on medium and larger screens -->
+                <div class="col-md-8"> <!-- Anchor tag occupies 8 columns on medium and larger screens -->
                     <div class="dropdown">
-                        <button type="button" class="btn btn-primary custom-dropdown-button dropdown-toggle" data-bs-toggle="dropdown">
+                        <a href="#" class="btn btn-primary custom-dropdown-button dropdown-toggle" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             USA
-                        </button>
-                        <ul class="dropdown-menu col-md-12">
+                        </a>
+                        <ul class="dropdown-menu col-md-12" aria-labelledby="dropdownMenuLink">
                             <li><a class="dropdown-item" href="#">University of Chicago</a></li>
                             <li><a class="dropdown-item" href="#">University of Chicago</a></li>
                             <li><a class="dropdown-item" href="#">University of Chicago</a></li>

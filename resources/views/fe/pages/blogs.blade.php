@@ -23,7 +23,7 @@
             <div class="post-content row">
               <!-- <a href="blog.html" class="category-badge">Study Abroad</a> -->
               {{-- <img src="{{ asset('images/blog1.jpg')}}" class="card-img-top col-lg-6" alt="..."> --}}
-              <h2 class="post-title"><a href="{{ route('blog1') }}">Choosing the Right Study Destination: Factors to Consider</a></h2>
+              <h2 class="post-title"><a href="{{ route('choosing-the-right') }}">Choosing the Right Study Destination: Factors to Consider</a></h2>
                 <p class="post-excerpt">Selecting the perfect study destination is a critical decision for any aspiring international student. Our blog post delves into the key factors to consider, including the cost of living, language barriers, and cultural fit...
                     {{-- Learn how to make an informed choice that aligns with your educational and lifestyle goals. <br> Studying abroad is a transformative experience, offering exposure to new cultures, educational opportunities, and personal growth. 
                      However, selecting the perfect study destination is a critical decision that demands thorough consideration.
@@ -32,8 +32,8 @@
                 </p>
                 <ul class="post-meta list-inline">
                     <li class="list-inline-item"><i class="far fa-user"></i> Wisdom George</li>
-                    <li class="list-inline-item"><i class="far fa-calendar"></i> 28 Oct 2021</li>
-                    <a href="{{ route('blog1') }}" class="category-badge">Read more</a>
+                    <li class="list-inline-item"><i class="far fa-calendar"></i> 28 Oct 2023</li>
+                    <a href="{{ route('choosing-the-right') }}" class="category-badge">Read more</a>
                 </ul>
             </div>
           </div>
@@ -43,7 +43,7 @@
           <div class="post featured-post-lg">
             <div class="post-content">
               {{-- <img src="./assets/images/blog2.jpg" class="card-img-top" alt="..."> --}}
-              <h2 class="post-title"><a href="{{ route('blog2') }}">The Benefits of Studying Abroad: A Life-Changing Experience</a></h2>
+              <h2 class="post-title"><a href="{{ route('benefits-of-studying') }}">The Benefits of Studying Abroad: A Life-Changing Experience</a></h2>
               <p class="post-excerpt justify-content-center">Studying abroad is more than just earning a degree; it's a transformative journey.<br>
                  In this blog post, we explore the numerous personal and professional advantages of studying in a foreign country. From cultural enrichment to improved career prospects, discover how an international education can shape your future......
                 <br>
@@ -54,7 +54,7 @@
               <ul class="post-meta list-inline">
                 <li class="list-inline-item"><i class="far fa-user"></i> Favour Oti</li>
                 <li class="list-inline-item"><i class="far fa-calendar"></i> 25 Sept 2023</li>
-                <a href="{{ route('blog2') }}" class="category-badge">Read more</a>
+                <a href="{{ route('benefits-of-studying') }}" class="category-badge">Read more</a>
               </ul>
             </div>
           </div>
@@ -64,14 +64,14 @@
           <div class="post featured-post-lg">
             <div class="post-content">
               {{-- <img src="./assets/images/blog0.jpg" class="card-img-top" alt="..."> --}}
-              <h2 class="post-title"><a href="{{ route('blog3') }}">Navigating the Application Process: Tips for Studying Abroad</a></h2>
+              <h2 class="post-title"><a href="{{ route('navigating-the-application') }}">Navigating the Application Process: Tips for Studying Abroad</a></h2>
               <p class="post-excerpt">The application process for studying abroad can be overwhelming. This blog post provides a comprehensive guide with practical tips and insights. 
                 From crafting a compelling personal statement to securing financial aid, we'll help you navigate every step towards your dream international education...
               </p>
               <ul class="post-meta list-inline">
                 <li class="list-inline-item"><i class="far fa-user"></i>Wisdom George</li>
                 <li class="list-inline-item"><i class="far fa-calendar"></i> 15 Aug 2023</li>
-                <a href="{{ route('blog3') }}" class="category-badge">Read more</a>
+                <a href="{{ route('navigating-the-application') }}" class="category-badge">Read more</a>
               </ul>
             </div>
           </div>
@@ -81,14 +81,14 @@
           <div class="post featured-post-lg">
             <div class="post-content">
               {{-- <img src="./assets/images/blog5.jpg" class="card-img-top" alt="..."> --}}
-              <h2 class="post-title"><a href="{{ route('blog4') }}">Cultural Adjustment: Thriving in a New Environment</a></h2>
+              <h2 class="post-title"><a href="{{ route('cultural-adjustment') }}">Cultural Adjustment: Thriving in a New Environment</a></h2>
               <p class="post-excerpt">Adapting to a new culture and environment is an integral part of studying abroad. We discuss the challenges that international students commonly face and offer valuable advice on how to overcome them. Discover strategies for cultural integration and making the most of your overseas experience.
                 {{-- Enhanced Career Prospects: Employers often highly value candidates with international experience. Studying abroad demonstrates your adaptability, cultural awareness, and willingness to tackle new challenges, all of which are qualities in high demand in the job market. --}}
               </p>
               <ul class="post-meta list-inline">
                 <li class="list-inline-item"><i class="far fa-user"></i>Wisdom George</li>
                 <li class="list-inline-item"><i class="far fa-calendar"></i> 29 July 2023</li>
-                <a href="{{ route('blog4') }}" class="category-badge">Read more</a>
+                <a href="{{ route('cultural-adjustment') }}" class="category-badge">Read more</a>
               </ul>
             </div>
           </div>

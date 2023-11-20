@@ -74,17 +74,44 @@
 
   @yield('content')
 
-  <footer>
+  
+  <footer class="bg-dark text-light py-4">
     <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <p><i class="fa fa-copyright"></i> Powered by TechTrolls  
-          
-           | Design: <a href="" rel="sponsored" target="_parent">TechTrolls</a></p>
+        <div class="row">
+            <div class="col-md-4">
+                <h5>Company</h5>
+                <ul class="list-unstyled">
+                    <li><a href="/about-us" class="text-light">About Us</a></li>
+                    <li><a href="/contact-us" class="text-light">Contact Us</a></li>
+                    <li><a href="/blogs" class="text-light">Blogs</a></li></br>
+                    <span><a href="/"> <img src="{{ asset('images/GWES-04.png')}}" alt=""> </a></span>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h5>Contact</h5>
+                <address>
+                    123 Company St,<br>
+                    City, Country<br>
+                    <span>Phone: +1234567890</span><br>
+                    <span>Email: info@example.com</span>
+                </address>
+             
+            </div>
+            <div class="col-md-4">
+                <h5>Follow Us</h5>
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="#" class="text-light"><i class="fab fa-facebook"></i></a></li>
+                    <li class="list-inline-item"><a href="#" class="text-light"><i class="fab fa-twitter"></i></a></li>
+                    <li class="list-inline-item"><a href="#" class="text-light"><i class="fab fa-instagram"></i></a></li>
+                    <!-- Add more social icons as needed -->
+                </ul>
+                <p>Monday - Friday: 9 a.m. - 6 p.m.</p>
+                <p>Saturday: 10 a.m. - 3 p.m.</p>
+            </div>
         </div>
-      </div>
     </div>
-  </footer>
+</footer>
+
 
   <!-- Scripts -->
   <!-- Bootstrap core JavaScript -->

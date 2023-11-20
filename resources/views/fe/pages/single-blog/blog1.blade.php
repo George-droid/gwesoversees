@@ -2,7 +2,7 @@
 
 @section('content')
     <section class="section main-banner" id="top" data-section="section1">
-        <img class="hero-img" src="{{ asset('images/about-us.jpg')}}" alt="">
+        <img class="hero-img" src="{{ asset('images/blog.jpeg')}}" alt="">
         <!-- <video autoplay muted loop id="bg-video">
             <source src="assets/images/course-video.mp4" type="video/mp4" />
         </video> -->
@@ -23,7 +23,7 @@
             <div class="post-content row">
               <!-- <a href="blog.html" class="category-badge">Study Abroad</a> -->
               <img src="{{ asset('images/blog1.jpg')}}" class="card-img-top col-lg-12" alt="...">
-              <h2 class="post-main-title"><a href="blog-single/blog-1.html">Choosing the Right Study Destination: Factors to Consider</a></h2>
+              <h2 class="post-main-title"><a href="{{ route('choosing-the-right') }}">Choosing the Right Study Destination: Factors to Consider</a></h2>
                 <p class="post-excerpt">Selecting the perfect study destination is a critical decision for any aspiring international student. 
                     Studying abroad is a transformative experience, offering exposure to new cultures, educational opportunities, and personal growth. 
                     However, selecting the right study destination is a crucial decision that demands thorough consideration. In this article, 
