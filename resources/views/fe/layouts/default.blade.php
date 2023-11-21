@@ -75,7 +75,7 @@
   @yield('content')
 
   
-  <footer class="text-light py-2">
+  <footer class="text-light pt-2">
     <div class="footer-container">
         <div class="row">
             <div class="col-md-4">
