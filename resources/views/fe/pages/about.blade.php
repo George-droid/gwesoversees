@@ -49,6 +49,7 @@
           </div>
         </div>
     </section>
+    
     <section class="partners-section">
         <div class="col-md-12">
             <div class="section-heading">
@@ -166,4 +167,48 @@
             <button id="next-button"> </button>
         </div>
     </section>
+
+    {{-- <section class="blogs-section">
+        <div class="container-xl">
+            <div class="row">
+            <div class="col-md-12">
+                <div class="section-heading">
+                <h2>OUR SERVICES</h2>
+                </div>
+            </div>
+            </div>
+            <div class="row gy-4">
+            <div class="col-lg-12">
+                <div class="post featured-post-lg">
+                <div class="post-content row">
+                    <img src="{{ asset('images/services.svg')}}" class="col-lg-6">
+                    <!-- <a href="" class="category-badge">Study Abroad</a> -->
+                    <div class="services col-lg-6">
+                    <h2 class="post-title"><a href="">We Offer These Serives</a></h2>
+                    <!-- <p class="post-excerpt">Here are our core services we provide towards your educational aspirations.</p> -->
+                    <div class="row gy-2">
+                        <div class="col-lg-12 mb-2 mt-2">
+                        <div class="p-3 border bg-dark"><i class="fa fa-check-square-o" aria-hidden="true"></i>
+                            University Placements</div>
+                        </div>
+                        <div class="col-lg-12 mb-2">
+                        <div class="p-3 border bg-dark"><i class="fa fa-check-square-o" aria-hidden="true"></i>
+                            Intensive welfare services for our students</div>
+                        </div>
+                        <div class="col-lg-12 mb-2">
+                        <div class="p-3 mt-2 border bg-dark"><i class="fa fa-check-square-o" aria-hidden="true"></i>
+                            Accredited training for IELTS, TOEFL, SAT, GRE & GMAT</div>
+                        </div>
+                        <div class="col-lg-12">
+                        <div class="p-3 mt-2 border bg-dark"><i class="fa fa-check-square-o" aria-hidden="true"></i>
+                            Comprehensive counselling</div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section> --}}
 @endsection

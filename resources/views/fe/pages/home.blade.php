@@ -432,7 +432,7 @@
                     <div class="services col-lg-6">
                     <h2 class="post-title"><a href="">We Offer These Serives</a></h2>
                     <!-- <p class="post-excerpt">Here are our core services we provide towards your educational aspirations.</p> -->
-                    <div class="row gy-5">
+                    <div class="row gy-2">
                         <div class="col-lg-12 mb-2 mt-2">
                         <div class="p-3 border bg-dark"><i class="fa fa-check-square-o" aria-hidden="true"></i>
                             University Placements</div>
@@ -715,12 +715,12 @@
                                 <input name="name" type="text" class="form-control" id="name" placeholder="Your Name" required="">
                             </fieldset>
                             </div>
-                            <div class="col-md-12">
+                            <div class="col-md-6">
                             <fieldset>
                                 <input name="email" type="email" class="form-control" id="email" placeholder="Your Email" required="">
                             </fieldset>
                             </div>
-                            <div class="col-md-12">
+                            <div class="col-md-6">
                                 <fieldset>
                                     <input name="phone" type="text" class="form-control" id="phone" placeholder="Your Phone Number" required="">
                                 </fieldset>

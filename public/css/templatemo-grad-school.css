@@ -1925,8 +1925,12 @@ section.contact form button {
 /* Footer */
 
 footer {
-    background-color: #152036;
+    background-color: #23293d !important;
     text-align: center;
+}
+.footer-container {
+  background-color: rgb(27, 27, 29) !important;
+  text-align: center;
 }
 
 footer p {
@@ -1945,7 +1949,7 @@ footer p a:hover {
 }
 
 @media screen and (max-width: 992px) {
-  .features { background-color: #0c1228; }
+  .features { background-color: #18181a; }
   .features-content { position: relative; }
   .features-post { border-left: 0 }
 }

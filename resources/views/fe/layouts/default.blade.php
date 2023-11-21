@@ -75,8 +75,8 @@
   @yield('content')
 
   
-  <footer class="bg-dark text-light py-4">
-    <div class="container">
+  <footer class="text-light py-2">
+    <div class="footer-container">
         <div class="row">
             <div class="col-md-4">
                 <h5>Company</h5>
