@@ -75,27 +75,29 @@
   @yield('content')
 
   
-  <footer class="text-light pt-2">
-    <div class="footer-container">
+  <footer class="bg-dark text-light pt-4">
+    <div class="container">
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 mb-4 mb-md-0">
                 <h5>Company</h5>
                 <ul class="list-unstyled">
-                    <li><a href="/about-us" class="text-light">About Us</a></li>
-                    <li><a href="/contact-us" class="text-light">Contact Us</a></li>
-                    <li><a href="/blogs" class="text-light">Blogs</a></li></br>
-                    <span><a href="/"> <img src="{{ asset('images/GWES-04.png')}}" alt=""> </a></span>
+                    <li><a href="{{ route('about') }}" class="text-light">About Us</a></li>
+                    <li><a href="{{ route('contact') }}" class="text-light">Contact Us</a></li>
+                    <li><a href="{{ route('blogs') }}" class="text-light">Blogs</a></li>
                 </ul>
+                <a href="/">
+                    <img src="{{ asset('images/GWES-04.png')}}" alt="GWES" class="img-fluid mt-3" style="max-width: 150px;">
+                </a>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 mb-4 mb-md-0">
                 <h5>Contact</h5>
                 <address>
-                    123 Company St,<br>
-                    City, Country<br>
+                     Riggz Plaza,<br>
+                     Isheri Road Omole<br>
+                     P.O Box 3117, Ikeja, Lagos<br>
                     <span>Phone: +1234567890</span><br>
                     <span>Email: info@example.com</span>
                 </address>
-             
             </div>
             <div class="col-md-4">
                 <h5>Follow Us</h5>
@@ -105,12 +107,13 @@
                     <li class="list-inline-item"><a href="#" class="text-light"><i class="fab fa-instagram"></i></a></li>
                     <!-- Add more social icons as needed -->
                 </ul>
-                <p>Monday - Friday: 9 a.m. - 6 p.m.</p>
-                <p>Saturday: 10 a.m. - 3 p.m.</p>
+                <p class="mb-0">Monday - Friday: 9 a.m. - 6 p.m.</p>
+                <p class="mb-0">Saturday: 10 a.m. - 3 p.m.</p>
             </div>
         </div>
     </div>
-</footer>
+  </footer>
+
 
 
   <!-- Scripts -->
