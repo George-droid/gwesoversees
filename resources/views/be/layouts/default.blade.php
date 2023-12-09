@@ -55,12 +55,12 @@
                     <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
                         aria-expanded="true" aria-controls="collapseTwo">
                         <i class="fas fa-fw fa-cog"></i>
-                        <span>Menu Categories</span>
+                        <span>Destinations</span>
                     </a>
                     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                         <div class="bg-white py-2 collapse-inner rounded">
-                            <a class="collapse-item" href="">Add Menus Categories</a>
-                            <a class="collapse-item" href="">Delete Menu Categories</a>
+                            <a class="collapse-item" href="{{ route('be.adddestinations') }}">Add Destinations</a>
+                            <a class="collapse-item" href="">Delete Destinations</a>
                         </div>
                     </div>
                 </li>

@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\CustomAuthController;
 use App\Http\Controllers\DestinationController;
 
@@ -37,6 +38,8 @@ Route::get('/login', [CustomAuthController::class, 'login'])->name('login');
 Route::post('custom-login', [CustomAuthController::class, 'customLogin'])->name('login.custom');
 
 Route::get('/dashboard', [CustomAuthController::class, 'dashboard'])->name('dashboard');
+Route::get('/dashboard/add-destinations', [DashboardController::class, 'addDestinations'])->name('be.adddestinations');
+Route::post('/dashboard/save-destinations', [DashboardController::class, 'saveDestinations'])->name('be.savedestinations');
 
 
 
