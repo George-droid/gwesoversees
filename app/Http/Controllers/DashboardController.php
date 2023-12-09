@@ -27,4 +27,16 @@ class DashboardController extends Controller
         // Optionally, you can return a response or redirect as needed
         return redirect()->back()->with('success', 'Destination saved successfully');
     }
+    public function listDestinations()
+    {
+        $destinations = Destination::with('universities')->get();
+        return view('be.pages.deletedestinations', compact('destinations'));
+    }
+    public function deleteDestinations($id)
+    {
+        $menu = Destination::findOrFail($id);
+        $menu->delete();
+
+        return redirect()->back()->with('success', 'Destination deleted successfully');
+    }
 }

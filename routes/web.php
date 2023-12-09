@@ -40,7 +40,7 @@ Route::post('custom-login', [CustomAuthController::class, 'customLogin'])->name(
 Route::get('/dashboard', [CustomAuthController::class, 'dashboard'])->name('dashboard');
 Route::get('/dashboard/add-destinations', [DashboardController::class, 'addDestinations'])->name('be.adddestinations');
 Route::post('/dashboard/save-destinations', [DashboardController::class, 'saveDestinations'])->name('be.savedestinations');
-
-
+Route::get('/dashboard/list-destinations', [DashboardController::class, 'listDestinations'])->name('be.listdestinations');
+Route::delete('/dashboard/list-destinations/delete/{id}', [DashboardController::class, 'deleteDestinations'])->name('be.deletedestinations');
 
 
