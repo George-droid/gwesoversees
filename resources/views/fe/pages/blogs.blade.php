@@ -93,6 +93,42 @@
             </div>
           </div>
         </div>
+
+        {{-- The new design --}}
+        {{-- <section class="blogs-section">
+          <div class="container">
+              <div class="row gy-4">
+                  <div class="col-lg-8">
+                      <!-- Latest Post 1 -->
+                      <div class="post featured-post-lg">
+                          <div class="post-content">
+                              <a href="{{ route('blogs') }}" class="category-badge">Study Abroad</a>
+                              <h2 class="post-title"><a href="{{ route('choosing-the-right') }}">Choosing the Right Study Destination: Factors to Consider</a></h2>
+                              <p class="post-excerpt">Selecting the perfect study destination is a critical decision for any aspiring international student. Our blog post delves into the key factors to consider, including the cost of living, language barriers, and cultural fit. Learn how to make an informed choice that aligns with your educational and lifestyle goals.</p>
+                              <ul class="post-meta list-inline">
+                                  <li class="list-inline-item"><i class="far fa-user"></i> Karen Doe</li>
+                                  <li class="list-inline-item"><i class="far fa-calendar"></i> 28 Oct 2023</li>
+                                  <a href="{{ route('choosing-the-right') }}" class="category-badge">Read more</a>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+      
+                  <div class="col-lg-4">
+                      <!-- Tabbed Section -->
+                      <div class="post-tabs rounded bordered">
+                          <ul class="nav nav-tabs nav-pills nav-fill" id="postsTab" role="tablist">
+                              <!-- Tabs -->
+                          </ul>
+      
+                          <div class="tab-content" id="postsTabContent">
+                              <!-- Tab Content -->
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </section> --}}
     
         {{-- <div class="col-lg-12">
           <div class="post featured-post-lg">
