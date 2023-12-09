@@ -33,4 +33,11 @@ Route::get('/blog-4/cultural-adjustment', [BlogController::class, 'blog4'])->nam
 
 Route::get('/destinations', [DestinationController::class, 'destinations'])->name('destinations');
 
+Route::get('/login', [CustomAuthController::class, 'login'])->name('login');
+Route::post('custom-login', [CustomAuthController::class, 'customLogin'])->name('login.custom');
+
+Route::get('/dashboard', [CustomAuthController::class, 'dashboard'])->name('dashboard');
+
+
+
 
