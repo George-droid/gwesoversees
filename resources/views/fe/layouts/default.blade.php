@@ -183,6 +183,28 @@
 
 
   </script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const filterButtons = document.querySelectorAll(".filter-button");
+        const universities = document.querySelectorAll(".university");
+
+        filterButtons.forEach(button => {
+            button.addEventListener("click", function() {
+                const category = this.getAttribute("data-filter");
+
+                universities.forEach(university => {
+                    const uniCategory = university.getAttribute("data-category");
+
+                    if (category === "all" || category === uniCategory) {
+                        university.style.display = "block";
+                    } else {
+                        university.style.display = "none";
+                    }
+                });
+            });
+        });
+    });
+  </script>
 
  <!-- Counter Javascript  -->
  {{-- <script>
