@@ -43,4 +43,7 @@ Route::post('/dashboard/save-destinations', [DashboardController::class, 'saveDe
 Route::get('/dashboard/list-destinations', [DashboardController::class, 'listDestinations'])->name('be.listdestinations');
 Route::delete('/dashboard/list-destinations/delete/{id}', [DashboardController::class, 'deleteDestinations'])->name('be.deletedestinations');
 
-
+Route::get('/dashboard/add-universities', [DashboardController::class, 'addUniversities'])->name('be.adduniversities');
+Route::post('/dashboard/save-universities', [DashboardController::class, 'saveUniversities'])->name('be.saveuniversities');
+Route::get('/dashboard/list-universities', [DashboardController::class, 'listUniversities'])->name('be.listuniversities');
+Route::delete('/dashboard/list-universities/delete/{id}', [DashboardController::class, 'deleteUniversities'])->name('be.deleteuniversities');
