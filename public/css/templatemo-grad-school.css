@@ -130,6 +130,17 @@ p {
     outline: none;
 }
 
+.filter-button {
+  background-color: #f5a425;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: 300;
+  padding: 3px 5px;
+  display: inline-block;
+  outline: none;
+}
+
 a.menu-link { display: none; }
 
 @media screen and (max-width: 950px) {
