@@ -46,6 +46,7 @@
         <li><a href="{{ route('about') }}">About Us</a></li></li>
         <li><a href="{{ route('blogs') }}">Blog</a></li>
         <!-- <li><a href="#section5">Video</a></li> -->
+        <li><a href="{{ route('destinations') }}">Destinations</a></li>
         <li><a href="{{ route('contact') }}">Contact</a></li>
         <!-- <li><a href="" class="external">External</a></li> -->
       </ul>

@@ -496,7 +496,7 @@
             <div class="carousel-container  container-fluid">
                 {{-- <a href="{{ route('destinations') }}"> --}}
                     <div class=" col-md-6 col-lg-4 partner-card">
-                    <img src="{{ asset('images/usa.jpg')}}" class="card-img-top" alt="partner-01" preload >
+                    <img src="{{ asset('images/usa.jpg')}}" class="card-img-top" alt="partner-01"  >
                     <div class="partner-title ">  Study In USA </div>
                     {{-- <div class="partner-details">
                         <p>We have partners in different schools </p>
@@ -507,7 +507,7 @@
                     </div>
                 {{-- </a> --}}
                 <div class= " col-md-6 col-lg-4 partner-card  ">
-                <img src="{{ asset('images/canada.jpg')}}"  class="card-img-top" alt="partner-02" preload>
+                <img src="{{ asset('images/canada.jpg')}}"  class="card-img-top" alt="partner-02" >
                 <div class="partner-title"> Study In Canada</div>
                 {{-- <div class="partner-details">
                     <p>We have partners in different schools </p>
@@ -518,7 +518,7 @@
                 </div>
 
                 <div class=" col-md-6 col-lg-4 partner-card">
-                <img src="{{ asset('images/london_n.jpg')}}"  class="card-img-top" alt="partner-03" preload>
+                <img src="{{ asset('images/london_n.jpg')}}"  class="card-img-top" alt="partner-03" >
                 <div class="partner-title"> Study In UK</div>
                 {{-- <div class="partner-details">
                     <p>We have partners in different schools </p>
@@ -529,7 +529,7 @@
                 </div>
 
                 <div class=" col-md-6 col-lg-4 partner-card ">
-                <img src="{{ asset('images/australia.jpg')}}"  class="card-img-top" alt="partner-04" preload>
+                <img src="{{ asset('images/australia.jpg')}}"  class="card-img-top" alt="partner-04" >
                 <div class="partner-title"> Study In Australia</div>
                 {{-- <div class="partner-details">
                     <p>We have partners in different schools </p>
@@ -541,7 +541,7 @@
             
 
                 <div class=" col-md-6 col-lg-4 partner-card">
-                <img src="{{ asset('images/germany_n.jpg')}}"  class="card-img-top" alt="partner-05" preload>
+                <img src="{{ asset('images/germany_n.jpg')}}"  class="card-img-top" alt="partner-05" >
                 <div class="partner-title"> Study In Germany</div>
                 {{-- <div class="partner-details">
                     <p>We have partners in different schools </p>
@@ -552,7 +552,7 @@
                 </div>
 
                 <div class="col-md-6 col-lg-4 partner-card ">
-                <img src="{{ asset('images/france_n.jpg')}}"  class="card-img-top" alt="partner-06" preload>
+                <img src="{{ asset('images/france_n.jpg')}}"  class="card-img-top" alt="partner-06" >
                 <div class="partner-title"> Study In France</div>
                 {{-- <div class="partner-details">
                     <p>We have partners in different schools </p>
@@ -563,7 +563,7 @@
                 </div>
 
                 <div class="col-md-6 col-lg-4 partner-card ">
-                <img src="{{ asset('images/china_n.jpg')}}"  class="card-img-top" alt="partner-07" preload>
+                <img src="{{ asset('images/china_n.jpg')}}"  class="card-img-top" alt="partner-07" >
                 <div class="partner-title"> Study In China</div>
                 {{-- <div class="partner-details">
                     <p>We have partners in different schools </p>
@@ -574,7 +574,7 @@
                 </div>
 
                 <div class="col-md-6 col-lg-4 partner-card">
-                <img src="{{ asset('images/singapore.jpg')}}"  class="card-img-top" alt="partner-08" preload>
+                <img src="{{ asset('images/singapore.jpg')}}"  class="card-img-top" alt="partner-08" >
                 <div class="partner-title"> Study In Singapore</div>
                 {{-- <div class="partner-details">
                     <p>We have partners in different schools </p>
@@ -585,7 +585,7 @@
                 </div>
 
                 <div class="col-md-6 col-lg-4 partner-card ">
-                <img src="{{ asset('images/india_n.jpg')}}"  class="card-img-top" alt="partner-09" preload>
+                <img src="{{ asset('images/india_n.jpg')}}"  class="card-img-top" alt="partner-09" >
                 <div class="partner-title"> Study In India</div>
                 {{-- <div class="partner-details">
                     <p>We have partners in different schools </p>
