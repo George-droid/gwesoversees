@@ -19,11 +19,13 @@ class DashboardController extends Controller
     {
         $request->validate([
             'name' => 'required|string|max:255', // Validation rules for the 'name' field
+            'image' => 'string',
         ]);
 
         // Create a new menu instance and save the 'name' to the 'menus' table
         $menu = new Destination();
         $menu->name = $request->input('name');
+        $menu->image = $request->input('image');
         $menu->save();
 
         // Optionally, you can return a response or redirect as needed

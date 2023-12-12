@@ -29,6 +29,10 @@
                           <input type="text" name="name" class="form-control" id="name" aria-describedby="nameHelp">
                           <div id="name" class="form-text">This destination will have multiple universities under it.</div>
                         </div>
+                        <div class="mb-3">
+                          <label for="image" class="form-label">Logo</label>
+                          <input type="file" name="image" class="form-control" id="image">
+                        </div>
                         {{-- <div class="mb-3">
                           <label for="exampleInputPassword1" class="form-label">Password</label>
                           <input type="password" class="form-control" id="exampleInputPassword1">

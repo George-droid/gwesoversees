@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\University;
+use App\Models\Destination;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
@@ -34,7 +36,8 @@ class CustomAuthController extends Controller
     }
     public function home()
     {
-        return view('fe.pages.home');
+        $destinations = Destination::with('universities')->get();
+        return view('fe.pages.home', compact('destinations'));
     }
 
     public function about()
