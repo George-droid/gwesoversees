@@ -50,7 +50,7 @@
         </div>
     </section>
     
-    <section class="partners-section">
+    <section class="partners-section p-5">
         <div class="col-md-12">
             <div class="section-heading">
             <h2>OUR DESTINATIONS</h2>
