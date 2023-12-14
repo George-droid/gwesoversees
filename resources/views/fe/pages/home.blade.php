@@ -460,7 +460,7 @@
 
 
 
-    <section class="section video" data-section="section5">
+    {{-- <section class="section video" data-section="section5">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 align-self-center">
@@ -484,7 +484,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 
     <section class="partners-section">
         <div class="col-md-12">
