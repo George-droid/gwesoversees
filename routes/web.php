@@ -33,6 +33,7 @@ Route::get('/blog-3/navigating-the-application', [BlogController::class, 'blog3'
 Route::get('/blog-4/cultural-adjustment', [BlogController::class, 'blog4'])->name('cultural-adjustment');
 
 Route::get('/destinations', [DestinationController::class, 'destinations'])->name('destinations');
+Route::post('/destinations/submit', [DestinationController::class, 'submitContactForm'])->name('destinations.submit');
 
 Route::get('/login', [CustomAuthController::class, 'login'])->name('login');
 Route::post('custom-login', [CustomAuthController::class, 'customLogin'])->name('login.custom');

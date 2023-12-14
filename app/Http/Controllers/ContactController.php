@@ -21,17 +21,11 @@ class ContactController extends Controller
         return view('fe.pages.contact-us');
     }
 
-    public function sendClientMessage(Request $request)
-    {
-        $name = $request->name;
-        $email = $request->email;
-        $phone = $request->email;
-        $subject = $request->email;
-        $message = $request->email;
+    // public function sendClientMessage(Request $request)
+    // {
 
-
-        return view('fe.pages.contact-us');
-    }
+    //     return view('fe.pages.contact-us');
+    // }
 
     public function submitContactForm(Request $request)
     {

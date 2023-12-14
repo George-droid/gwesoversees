@@ -3,11 +3,32 @@
 namespace App\Http\Controllers;
 
 use App\Models\Destination;
+use App\Mail\InterestFormMail;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 use App\Http\Requests\StoreDestinationRequest;
 use App\Http\Requests\UpdateDestinationRequest;
 
 class DestinationController extends Controller
 {
+    public function submitContactForm(Request $request)
+    {
+        // Validate the form data
+        $this->validate($request, [
+            'university' => 'required',
+            'client_name' => 'required',
+            'client_email' => 'required|email',
+            'client_phone' => 'required',
+            'program' => 'required',
+        ]);
+
+        // Send an email
+        Mail::to('wisgeorge.wg@gmail.com') // Replace with the recipient's email address
+            ->send(new InterestFormMail($request));
+
+        // Optionally, you can flash a success message or handle the response as needed
+        return redirect()->back()->with('success', 'Your Interest has been sent successfully.');
+    }
     /**
      * Display a listing of the resource.
      */

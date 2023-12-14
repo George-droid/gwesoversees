@@ -87,7 +87,12 @@
 
             <!-- Modal Body -->
             <div class="modal-body">
-                <form id="interestForm" method="POST" action="">
+                @if(session('success'))
+                      <div class="alert alert-success">
+                          {{ session('success') }}
+                      </div>
+                @endif
+                <form id="interestForm" method="POST" action="{{ route('destinations.submit') }}">
                     @csrf
                     <div class="form-group">
                         <label for="universitySelect">University:</label>
@@ -123,9 +128,9 @@
                       <input type="text" class="form-control" id="client_phone" name="client_phone" required>
                     </div>
                     <div class="form-group">
-                      <label for="universitySelect">University:</label>
-                      <!-- Dropdown list of universities -->
-                      <select class="form-control" id="universitySelect" name="university">
+                      <label for="universitySelect">Program:</label>
+                      <!-- Dropdown list of programs -->
+                      <select class="form-control" id="universitySelect" name="program">
                           <!-- Option values will be dynamically generated -->
                           <option value="B.Sc">Bachelor's Degree</option>
                           <option value="M.Sc">Master's Degree</option>
