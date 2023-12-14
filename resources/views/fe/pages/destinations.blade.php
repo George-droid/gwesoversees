@@ -53,7 +53,7 @@
             <div class="container">
             <div class="row justify-content-md-center">
                 <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
-                <h2 class="mb-4 display-5 text-center">Patnering Universities</h2>
+                <h2 class="mb-4 display-5 text-white text-center">Patnering Universities</h2>
                 {{-- <p class="text-secondary mb-5 text-center">Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque et neque id ligula mattis commodo.</p> --}}
                 <hr class="w-50 mx-auto mb-5 mb-xl-9 border-dark-subtle">
                 </div>
