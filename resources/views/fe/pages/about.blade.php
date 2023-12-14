@@ -58,10 +58,59 @@
         </div>
         <div class="carousel ">
             <div class="carousel-container  container-fluid">
-
+                <div class=" col-md-6 col-lg-4 partner-card ">
+                    <a href="{{ route('destinations') }}" >
+                        <img src="{{ asset('images/australia.jpg')}}"  class="card-img-top" alt="partner-04" >
+                    </a>
+                    <div class="partner-title"> Study In Australia</div>
+                    {{-- <div class="partner-details">
+                        <p>We have partners in different schools </p>
+                        <p>University of Melbourne </p>
+                        <p>University of Sydney </p>
+                        <p>University of Queensland </p>
+                    </div> --}}
+                </div>
+                <div class= " col-md-6 col-lg-4 partner-card  ">
+                    <a href="{{ route('destinations') }}" >
+                        <img src="{{ asset('images/canada.jpg')}}"  class="card-img-top" alt="partner-02" >
+                    </a>
+                    <div class="partner-title"> Study In Canada</div>
+                    {{-- <div class="partner-details">
+                        <p>We have partners in different schools </p>
+                        <p>University of Toronto </p>
+                        <p>University of British Columbia </p>
+                        <p>University of Alberta </p>
+                    </div> --}}
+                </div>
+                <div class="col-md-6 col-lg-4 partner-card ">
+                    <a href="{{ route('destinations') }}" >
+                        <img src="{{ asset('images/france_n.jpg')}}"  class="card-img-top" alt="partner-06" >
+                    </a>
+                    <div class="partner-title"> Study In France</div>
+                    {{-- <div class="partner-details">
+                        <p>We have partners in different schools </p>
+                        <p>University of Paris </p>
+                        <p>University of Montpellier </p>
+                        <p>University of Strasbourg </p>
+                    </div> --}}
+                </div>
                 <div class=" col-md-6 col-lg-4 partner-card">
-                <img src="{{ asset('images/usa.jpg')}}" class="card-img-top" alt="partner-01" preload >
-                <div class="partner-title "> Study In USA</div>
+                    <a href="{{ route('destinations') }}" >
+                        <img src="{{ asset('images/germany_n.jpg')}}"  class="card-img-top" alt="partner-05" >
+                    </a>
+                    <div class="partner-title"> Study In Germany</div>
+                    {{-- <div class="partner-details">
+                        <p>We have partners in different schools </p>
+                        <p>Technical University of Munich </p>
+                        <p>Ludwig Maximilian University of Munich </p>
+                        <p>Heidelberg University </p>
+                    </div> --}}
+                </div>
+                <div class=" col-md-6 col-lg-4 partner-card">
+                <a href="{{ route('destinations') }}" >
+                    <img src="{{ asset('images/usa.jpg')}}" class="card-img-top" alt="partner-01"  >
+                </a>    
+                <div class="partner-title ">  Study In USA </div>
                 {{-- <div class="partner-details">
                     <p>We have partners in different schools </p>
                     <p>University of Washington </p>
@@ -69,20 +118,10 @@
                     <p>University of Texas </p>
                 </div> --}}
                 </div>
-
-                <div class= " col-md-6 col-lg-4 partner-card  ">
-                <img src="{{ asset('images/canada.jpg')}}"  class="card-img-top" alt="partner-02" preload>
-                <div class="partner-title"> Study In Canada</div>
-                {{-- <div class="partner-details">
-                    <p>We have partners in different schools </p>
-                    <p>University of Toronto </p>
-                    <p>University of British Columbia </p>
-                    <p>University of Alberta </p>
-                </div> --}}
-                </div>
-
                 <div class=" col-md-6 col-lg-4 partner-card">
-                <img src="{{ asset('images/london.jpg')}}"  class="card-img-top" alt="partner-03" preload>
+                <a href="{{ route('destinations') }}" >
+                    <img src="{{ asset('images/london_n.jpg')}}"  class="card-img-top" alt="partner-03" >
+                </a>
                 <div class="partner-title"> Study In UK</div>
                 {{-- <div class="partner-details">
                     <p>We have partners in different schools </p>
@@ -91,75 +130,53 @@
                     <p>Imperial College London </p>
                 </div> --}}
                 </div>
-
-                <div class=" col-md-6 col-lg-4 partner-card ">
-                <img src="{{ asset('images/australia.jpg')}}"  class="card-img-top" alt="partner-04" preload>
-                <div class="partner-title"> Study In Australia</div>
-                {{-- <div class="partner-details">
-                    <p>We have partners in different schools </p>
-                    <p>University of Melbourne </p>
-                    <p>University of Sydney </p>
-                    <p>University of Queensland </p>
-                </div> --}}
-                </div>
-            
-
-                <div class=" col-md-6 col-lg-4 partner-card">
-                <img src="{{ asset('images/germany.jpg')}}"  class="card-img-top" alt="partner-05" preload>
-                <div class="partner-title"> Study In Germany</div>
-                {{-- <div class="partner-details">
-                    <p>We have partners in different schools </p>
-                    <p>Technical University of Munich </p>
-                    <p>Ludwig Maximilian University of Munich </p>
-                    <p>Heidelberg University </p>
-                </div> --}}
-                </div>
-
-                <div class="col-md-6 col-lg-4 partner-card ">
-                <img src="{{ asset('images/france.jpg')}}"  class="card-img-top" alt="partner-06" preload>
-                <div class="partner-title"> Study In France</div>
-                {{-- <div class="partner-details">
-                    <p>We have partners in different schools </p>
-                    <p>University of Paris </p>
-                    <p>University of Montpellier </p>
-                    <p>University of Strasbourg </p>
-                </div> --}}
-                </div>
-
-                <div class="col-md-6 col-lg-4 partner-card ">
-                <img src="{{ asset('images/china.jpg')}}"  class="card-img-top" alt="partner-07" preload>
+                {{-- <div class="col-md-6 col-lg-4 partner-card ">
+                <img src="{{ asset('images/china_n.jpg')}}"  class="card-img-top" alt="partner-07" >
                 <div class="partner-title"> Study In China</div>
-                {{-- <div class="partner-details">
+                <div class="partner-details">
                     <p>We have partners in different schools </p>
                     <p>Tsinghua University </p>
                     <p>Peking University </p>
                     <p>Zhejiang University </p>
-                </div> --}}
                 </div>
-
-                <div class="col-md-6 col-lg-4 partner-card">
-                <img src="{{ asset('images/singapore.jpg')}}"  class="card-img-top" alt="partner-08" preload>
+                </div> --}}
+                {{-- <div class="col-md-6 col-lg-4 partner-card">
+                <img src="{{ asset('images/singapore.jpg')}}"  class="card-img-top" alt="partner-08" >
                 <div class="partner-title"> Study In Singapore</div>
-                {{-- <div class="partner-details">
+                <div class="partner-details">
                     <p>We have partners in different schools </p>
                     <p>National University of Singapore </p>
                     <p>Nanyang Technological University </p>
                     <p>Singapore Management University </p>
-                </div> --}}
                 </div>
-
-                <div class="col-md-6 col-lg-4 partner-card ">
-                <img src="{{ asset('images/india.jpg')}}"  class="card-img-top" alt="partner-09" preload>
+                </div> --}}
+                {{-- <div class="col-md-6 col-lg-4 partner-card ">
+                <img src="{{ asset('images/india_n.jpg')}}"  class="card-img-top" alt="partner-09" >
                 <div class="partner-title"> Study In India</div>
-                {{-- <div class="partner-details">
+                <div class="partner-details">
                     <p>We have partners in different schools </p>
                     <p>Indian Institute of Science </p>
                     <p>Indian Institute of Technology Bombay </p>
                     <p>Indian Institute of Technology Delhi </p>
-                </div> --}}
                 </div>
-
-            
+                </div> --}}
+                {{-- <div class="carousel-container container-fluid">
+                    @foreach($destinations as $destination)
+                        <div class="col-md-6 col-lg-4 partner-card">
+                            <img src="{{ asset($destination->image)}}" class="card-img-top" alt="{{ $destination->name }}">
+                            <div class="partner-title">{{ $destination->name }}</div>
+                            <div class="partner-details">
+                                <p>Number of Universities: {{ $destination->universities->count() }}</p>
+                                <p>Universities:</p>
+                                <ul>
+                                    @foreach($destination->universities as $university)
+                                        <li>{{ $university->name }}</li>
+                                    @endforeach
+                                </ul>
+                            </div>
+                        </div>
+                    @endforeach
+                </div> --}}
             </div>
         </div>
         <div class="carousel-controls justify-content-center">

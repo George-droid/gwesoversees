@@ -75,6 +75,71 @@
 
   @yield('content')
 
+  <!-- Interest Modal -->
+  <div class="modal" id="interestModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h4 class="modal-title">Express Interest</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <!-- Modal Body -->
+            <div class="modal-body">
+                <form id="interestForm" method="POST" action="">
+                    @csrf
+                    <div class="form-group">
+                        <label for="universitySelect">University:</label>
+                        <!-- Dropdown list of universities -->
+                        <select class="form-control" id="universitySelect" name="university">
+                            <!-- Option values will be dynamically generated -->
+                            <option value="University of Melbourne">University of Melbourne</option>
+                            <option value="University of Adelaide">University of Adelaide</option>
+                            <option value="McEwan University">McEwan University</option>
+                            <option value="Durham College">Durham College</option>
+                            <option value="RWTH Aachen University">RWTH Aachen University</option>
+                            <option value="University of Freiburg">University of Freiburg</option>
+                            <option value="University of Pittsburgh">University of Pittsburgh</option>
+                            <option value="University of Plymouth">University of Plymouth</option>
+                            <option value="University of Michigan">University of Michigan</option>
+                            <option value="University of Georgia">University of Georgia</option>
+
+                            <!-- ... -->
+                        </select>
+                    </div>
+                    <!-- Other form fields (prospect's name, email, phone number, program, course of interest) -->
+                    <!-- Example: -->
+                    <div class="form-group">
+                        <label for="client_name">Name:</label>
+                        <input type="text" class="form-control" id="client_name" name="client_name" required>
+                    </div>
+                    <div class="form-group">
+                      <label for="client_email">Email:</label>
+                      <input type="email" class="form-control" id="client_email" name="client_email" required>
+                    </div>
+                    <div class="form-group">
+                      <label for="client_phone">Phone:</label>
+                      <input type="text" class="form-control" id="client_phone" name="client_phone" required>
+                    </div>
+                    <div class="form-group">
+                      <label for="universitySelect">University:</label>
+                      <!-- Dropdown list of universities -->
+                      <select class="form-control" id="universitySelect" name="university">
+                          <!-- Option values will be dynamically generated -->
+                          <option value="B.Sc">Bachelor's Degree</option>
+                          <option value="M.Sc">Master's Degree</option>
+                          <!-- ... -->
+                      </select>
+                    </div>
+                    <!-- ... -->
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+  </div>
+
   
   <footer class="bg-dark text-light pt-4">
     <div class="container">
@@ -135,8 +200,78 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     {{-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> --}}
 
+    {{-- Interest modal script --}}
+    <script>
+      $(document).ready(function() {
+          // Function to open the modal when a university logo is clicked
+          $('.university').on('click', function() {
+              var universityName = $(this).attr('alt'); // Assuming the 'alt' attribute contains the university name
+              $('#universitySelect').val(universityName); // Set the value in the university select field in the modal
+              $('#interestModal').modal('show'); // Show the modal
+          });
+      });
+    </script>
+    {{-- <script>
+      // jQuery function to open modal and set the selected university
+      $('.university img').on('click', function () {
+          var university = $(this).attr('alt');
+          $('#universitySelect').val(university);
+          $('#interestModal').modal('show');
+      });
+    </script> --}}
 
- <!-- Counter Javascript  -->
+    {{-- Partner Carousel --}}
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        const carousel = document.querySelector(".carousel");
+        const container = document.querySelector(".carousel-container");
+        const partnerCards = document.querySelectorAll(".partner-card");
+
+        let currentIndex = 0;
+        const cardWidth = partnerCards[0].offsetWidth;
+        const numCards = partnerCards.length;
+
+        function showCard(index) {
+          const translateX = -index * cardWidth;
+          container.style.transform = `translateX(${translateX}px)`;
+        }
+
+        function next() {
+          currentIndex = (currentIndex + 1) % numCards;
+          showCard(currentIndex);
+        }
+
+        function prev() {
+          currentIndex = (currentIndex - 1 + numCards) % numCards;
+          showCard(currentIndex);
+        }
+
+        const nextButton = document.getElementById("next-button");
+        const prevButton = document.getElementById("prev-button");
+
+        nextButton.addEventListener("click", next);
+        prevButton.addEventListener("click", prev);
+
+        carousel.addEventListener("mouseenter", () => {
+          // Pause the automatic sliding when the carousel is hovered over
+          clearInterval(interval);
+        });
+
+        carousel.addEventListener("mouseleave", () => {
+          // Resume automatic sliding when the carousel is not hovered over
+          startAutoSlide();
+        });
+
+        function startAutoSlide() {
+          interval = setInterval(next, 3200); // Adjust the interval as needed (3 seconds in this example)
+        }
+
+        let interval;
+        startAutoSlide();
+      })
+    </script>
+
+  <!-- Counter Javascript  -->
   <script>
       const counters = document.querySelectorAll(".count");
       // Function to check if an element is in the viewport

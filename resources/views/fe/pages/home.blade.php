@@ -70,64 +70,64 @@
     </section>
 
     <section class="section why-us" data-section="section2">
-    <div class="container">
-        <div class="row">
-        <div class="col-md-12">
-            <div class="section-heading">
-            <h2>Why choose Goldenway?</h2>
+        <div class="container">
+            <div class="row">
+            <div class="col-md-12">
+                <div class="section-heading">
+                <h2>Why choose Goldenway?</h2>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div id='tabs'>
+                <ul>
+                    <li><a href='#tabs-1'>Expert Guidance</a></li>
+                    <li><a href='#tabs-2'>Test Preparation</a></li>
+                    <li><a href='#tabs-3'>End-to-End Support</a></li>
+                </ul>
+                <section class='tabs-content'>
+                    <article id='tabs-1'>
+                    <div class="row">
+                        <div class="col-md-6">
+                        <img src="{{ asset('images/expert-guidance.png')}}" alt="">
+                        </div>
+                        <div class="col-md-6">
+                        <h4>Expert Guidance</h4>
+                        <p>At Goldenway, we leverages our knowledge, experience, and network to assist parents
+                            and students in making informed decisions about international education, scholarships, 
+                            and admissions, ultimately enhancing their prospects on a global scale.</p>
+                        </div>
+                    </div>
+                    </article>
+                    <article id='tabs-2'>
+                    <div class="row">
+                        <div class="col-md-6">
+                        <img src="{{ asset('images/test-prep1.png')}}" alt="">
+                        </div>
+                        <div class="col-md-6">
+                        <h4>Accredited Test Preparation</h4>
+                        <p>We go beyond professional advice to give complete test preparation help, recognizing the crucial role of language proficiency examinations like IELTS, and TOEFL in gaining admissions overseas.</p> 
+                        <p>Our accredited training programs, led by expert teachers, are precisely intended to equip you with the skills and tactics required to excel in these tests.</p>
+                        </div>
+                    </div>
+                    </article>
+                    <article id='tabs-3'>
+                    <div class="row">
+                        <div class="col-md-6">
+                        <img src="{{ asset('images/student-support2.png')}}" alt="">
+                        </div>
+                        <div class="col-md-6">
+                        <h4>End-to-End Support</h4>
+                        <p>We understand that the process of studying abroad involves various complex steps, from university applications to visa processing and other requirements.</p>
+                        <p>We offer end-to-end support to simplify this process for you. Our dedicated team will assist you with every aspect of your journey,
+                            ensuring a smooth transition to your chosen international institution.</p>
+                        </div>
+                    </div>
+                    </article>
+                </section>
+                </div>
+            </div>
             </div>
         </div>
-        <div class="col-md-12">
-            <div id='tabs'>
-            <ul>
-                <li><a href='#tabs-1'>Expert Guidance</a></li>
-                <li><a href='#tabs-2'>Test Preparation</a></li>
-                <li><a href='#tabs-3'>End-to-End Support</a></li>
-            </ul>
-            <section class='tabs-content'>
-                <article id='tabs-1'>
-                <div class="row">
-                    <div class="col-md-6">
-                    <img src="{{ asset('images/expert-guidance.png')}}" alt="">
-                    </div>
-                    <div class="col-md-6">
-                    <h4>Expert Guidance</h4>
-                    <p>At Goldenway, we leverages our knowledge, experience, and network to assist parents
-                        and students in making informed decisions about international education, scholarships, 
-                        and admissions, ultimately enhancing their prospects on a global scale.</p>
-                    </div>
-                </div>
-                </article>
-                <article id='tabs-2'>
-                <div class="row">
-                    <div class="col-md-6">
-                    <img src="{{ asset('images/test-prep1.png')}}" alt="">
-                    </div>
-                    <div class="col-md-6">
-                    <h4>Accredited Test Preparation</h4>
-                    <p>We go beyond professional advice to give complete test preparation help, recognizing the crucial role of language proficiency examinations like IELTS, and TOEFL in gaining admissions overseas.</p> 
-                    <p>Our accredited training programs, led by expert teachers, are precisely intended to equip you with the skills and tactics required to excel in these tests.</p>
-                    </div>
-                </div>
-                </article>
-                <article id='tabs-3'>
-                <div class="row">
-                    <div class="col-md-6">
-                    <img src="{{ asset('images/student-support2.png')}}" alt="">
-                    </div>
-                    <div class="col-md-6">
-                    <h4>End-to-End Support</h4>
-                    <p>We understand that the process of studying abroad involves various complex steps, from university applications to visa processing and other requirements.</p>
-                    <p>We offer end-to-end support to simplify this process for you. Our dedicated team will assist you with every aspect of your journey,
-                        ensuring a smooth transition to your chosen international institution.</p>
-                    </div>
-                </div>
-                </article>
-            </section>
-            </div>
-        </div>
-        </div>
-    </div>
     </section>
     <!-- 
     <section class="section coming-soon" data-section="section3">
@@ -461,29 +461,29 @@
 
 
     <section class="section video" data-section="section5">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 align-self-center">
-                <div class="left-content">
-                <span>Testimonial</span>
-                <h4>Meet a few successful <em>candidates of Goldenway</em></h4>
-                <p>The road to success begins with a step towards goal.
-                <br><br>Learn how others took a step with us and are in line with their goals</p>
-                <!-- <div class="main-button"><a rel="nofollow" href="https://fb.com/templatemo" target="_parent">External URL</a></div> -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 align-self-center">
+                    <div class="left-content">
+                    <span>Testimonial</span>
+                    <h4>Meet a few successful <em>candidates of Goldenway</em></h4>
+                    <p>The road to success begins with a step towards goal.
+                    <br><br>Learn how others took a step with us and are in line with their goals</p>
+                    <!-- <div class="main-button"><a rel="nofollow" href="https://fb.com/templatemo" target="_parent">External URL</a></div> -->
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-6">
-                <article class="video-item">
-                <div class="video-caption">
-                    <h4>Listen to our students</h4>
+                <div class="col-md-6">
+                    <article class="video-item">
+                    <div class="video-caption">
+                        <h4>Listen to our students</h4>
+                    </div>
+                    <figure>
+                        <a href="https://www.youtube.com/watch?v=r9LtOG6pNUw" class="play"><img src="{{ asset('images/main-thumb.png')}}"></a>
+                    </figure>
+                    </article>
                 </div>
-                <figure>
-                    <a href="https://www.youtube.com/watch?v=r9LtOG6pNUw" class="play"><img src="{{ asset('images/main-thumb.png')}}"></a>
-                </figure>
-                </article>
             </div>
         </div>
-    </div>
     </section>
 
     <section class="partners-section">
@@ -495,7 +495,9 @@
         <div class="carousel ">
             <div class="carousel-container  container-fluid">
                 <div class=" col-md-6 col-lg-4 partner-card ">
-                    <img src="{{ asset('images/australia.jpg')}}"  class="card-img-top" alt="partner-04" >
+                    <a href="{{ route('destinations') }}" >
+                        <img src="{{ asset('images/australia.jpg')}}"  class="card-img-top" alt="partner-04" >
+                    </a>
                     <div class="partner-title"> Study In Australia</div>
                     {{-- <div class="partner-details">
                         <p>We have partners in different schools </p>
@@ -505,7 +507,9 @@
                     </div> --}}
                 </div>
                 <div class= " col-md-6 col-lg-4 partner-card  ">
-                    <img src="{{ asset('images/canada.jpg')}}"  class="card-img-top" alt="partner-02" >
+                    <a href="{{ route('destinations') }}" >
+                        <img src="{{ asset('images/canada.jpg')}}"  class="card-img-top" alt="partner-02" >
+                    </a>
                     <div class="partner-title"> Study In Canada</div>
                     {{-- <div class="partner-details">
                         <p>We have partners in different schools </p>
@@ -515,7 +519,9 @@
                     </div> --}}
                 </div>
                 <div class="col-md-6 col-lg-4 partner-card ">
-                    <img src="{{ asset('images/france_n.jpg')}}"  class="card-img-top" alt="partner-06" >
+                    <a href="{{ route('destinations') }}" >
+                        <img src="{{ asset('images/france_n.jpg')}}"  class="card-img-top" alt="partner-06" >
+                    </a>
                     <div class="partner-title"> Study In France</div>
                     {{-- <div class="partner-details">
                         <p>We have partners in different schools </p>
@@ -525,7 +531,9 @@
                     </div> --}}
                 </div>
                 <div class=" col-md-6 col-lg-4 partner-card">
-                    <img src="{{ asset('images/germany_n.jpg')}}"  class="card-img-top" alt="partner-05" >
+                    <a href="{{ route('destinations') }}" >
+                        <img src="{{ asset('images/germany_n.jpg')}}"  class="card-img-top" alt="partner-05" >
+                    </a>
                     <div class="partner-title"> Study In Germany</div>
                     {{-- <div class="partner-details">
                         <p>We have partners in different schools </p>
@@ -535,7 +543,9 @@
                     </div> --}}
                 </div>
                 <div class=" col-md-6 col-lg-4 partner-card">
-                <img src="{{ asset('images/usa.jpg')}}" class="card-img-top" alt="partner-01"  >
+                <a href="{{ route('destinations') }}" >
+                    <img src="{{ asset('images/usa.jpg')}}" class="card-img-top" alt="partner-01"  >
+                </a>    
                 <div class="partner-title ">  Study In USA </div>
                 {{-- <div class="partner-details">
                     <p>We have partners in different schools </p>
@@ -545,7 +555,9 @@
                 </div> --}}
                 </div>
                 <div class=" col-md-6 col-lg-4 partner-card">
-                <img src="{{ asset('images/london_n.jpg')}}"  class="card-img-top" alt="partner-03" >
+                <a href="{{ route('destinations') }}" >
+                    <img src="{{ asset('images/london_n.jpg')}}"  class="card-img-top" alt="partner-03" >
+                </a>
                 <div class="partner-title"> Study In UK</div>
                 {{-- <div class="partner-details">
                     <p>We have partners in different schools </p>
@@ -635,71 +647,139 @@
 
         <div class="col-lg-4">
             <div class="post-tabs rounded bordered">
-            <ul class="nav nav-tabs nav-pills nav-fill" id="postsTab" role="tablist">
-                <li class="nav-item" role="presentation">
-                <button class="nav-link active" id="popular-tab" data-bs-toggle="tab" data-bs-target="#popular" role="tab"  id="popular-tab" role="tab" type="button">
-                    Popular
-                </button>
-                </li>
-                <li class="nav-item" role="presentation">
-                <button class="nav-link" id="recent-tab" data-bs-toggle="tab" data-bs-target="#recent" data-bs-toggle="tab"  id="recent-tab" role="tab" type="button">
-                    Recent
-                </button>
-                </li>
-            </ul>
+                <ul class="nav nav-tabs nav-pills nav-fill" id="postsTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="popular-tab" data-bs-toggle="tab" data-bs-target="#popular" role="tab"  id="popular-tab" role="tab" type="button">
+                        Popular
+                    </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="recent-tab" data-bs-toggle="tab" data-bs-target="#recent" data-bs-toggle="tab"  id="recent-tab" role="tab" type="button">
+                        Recent
+                    </button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="postsTabContent">
+                    <div class="tab-pane fade show active" id="popular" role="tabpanel">
 
-            <div class="tab-content" id="postsTabContent">
-                <div class="tab-pane fade show active" id="popular" role="tabpanel">
-
-                <div class="details clearfix">
-                    <h6 class="post-title my-0"><a href="{{ route('navigating-the-application') }}">Navigating the Application Process: Tips for Studying Abroad</a>
-                    </h6>
-                    <ul class="meta list-inline mb-0 mt-1">
-                    <li class="list-inline-item">15 Aug 2023</li>
-                    </ul>
-                </div>
-
-                {{-- <div class="details clearfix">
-                    <h6 class="post-title my-0"><a href="#">Maintaining a Healthy Work-Study-Life Balance Abroad</a></h6>
-                    <ul class="meta list-inline mb-0 mt-1">
-                    <li class="list-inline-item">29 March 2021</li>
-                    </ul>
-                </div> --}}
-
-                <div class="details clearfix">
-                    <h6 class="post-title my-0"><a href="{{ route('cultural-adjustment') }}">Cultural Adjustment: Thriving in a New Environment</a></h6>
-                    <ul class="meta list-inline mb-0 mt-1">
-                    <li class="list-inline-item">29 July 2023</li>
-                    </ul>
-                </div>
-                </div>
-                
-                <div class="tab-pane fade show" id="recent" role="tabpanel">
                     <div class="details clearfix">
-                        <h6 class="post-title my-0"><a href="{{ route('choosing-the-right') }}">Choosing the Right Study Destination: Factors to Consider"</a></h6>
+                        <h6 class="post-title my-0"><a href="{{ route('navigating-the-application') }}">Navigating the Application Process: Tips for Studying Abroad</a>
+                        </h6>
                         <ul class="meta list-inline mb-0 mt-1">
-                            <li class="list-inline-item">28 Oct 2023</li>
+                        <li class="list-inline-item">15 Aug 2023</li>
                         </ul>
                     </div>
+
+                    {{-- <div class="details clearfix">
+                        <h6 class="post-title my-0"><a href="#">Maintaining a Healthy Work-Study-Life Balance Abroad</a></h6>
+                        <ul class="meta list-inline mb-0 mt-1">
+                        <li class="list-inline-item">29 March 2021</li>
+                        </ul>
+                    </div> --}}
+
                     <div class="details clearfix">
-                    <h6 class="post-title my-0"><a href="#">Post-Study Abroad: Leveraging Your Experience for Success</a></h6>
-                    <ul class="meta list-inline mb-0 mt-1">
-                        <li class="list-inline-item"> 06 May 2023</li>
-                    </ul>
+                        <h6 class="post-title my-0"><a href="{{ route('cultural-adjustment') }}">Cultural Adjustment: Thriving in a New Environment</a></h6>
+                        <ul class="meta list-inline mb-0 mt-1">
+                        <li class="list-inline-item">29 July 2023</li>
+                        </ul>
                     </div>
-                    <div class="details clearfix">
-                    <h6 class="post-title my-0"><a href="{{ route('navigating-the-application') }}">Navigating the Application Process: Tips for Studying Abroad</a></h6>
-                    <ul class="meta list-inline mb-0 mt-1">
-                        <li class="list-inline-item">15 Aug 2023</li>
-                    </ul>
+                    </div>
+                    
+                    <div class="tab-pane fade show" id="recent" role="tabpanel">
+                        <div class="details clearfix">
+                            <h6 class="post-title my-0"><a href="{{ route('choosing-the-right') }}">Choosing the Right Study Destination: Factors to Consider"</a></h6>
+                            <ul class="meta list-inline mb-0 mt-1">
+                                <li class="list-inline-item">28 Oct 2023</li>
+                            </ul>
+                        </div>
+                        <div class="details clearfix">
+                        <h6 class="post-title my-0"><a href="#">Post-Study Abroad: Leveraging Your Experience for Success</a></h6>
+                        <ul class="meta list-inline mb-0 mt-1">
+                            <li class="list-inline-item"> 06 May 2023</li>
+                        </ul>
+                        </div>
+                        <div class="details clearfix">
+                        <h6 class="post-title my-0"><a href="{{ route('navigating-the-application') }}">Navigating the Application Process: Tips for Studying Abroad</a></h6>
+                        <ul class="meta list-inline mb-0 mt-1">
+                            <li class="list-inline-item">15 Aug 2023</li>
+                        </ul>
+                        </div>
                     </div>
                 </div>
-            </div>
-
             </div>
         </div>
         </div>
     </div>
+    </section>
+
+    <section class="faq-section background-image">
+        <div class="container-xl">
+            <div class="row">
+            <div class="col-md-12">
+                <div class="section-heading">
+                <h2>FAQ</h2>
+                </div>
+            </div>
+            </div>
+            <div class="row gy-4">
+                <div class="col-lg-12">
+                    <div class="post-tabs rounded bordered">
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                    What are the basic requirements for applying to universities abroad?
+                                </button>
+                              </h2>
+                              <div id="flush-collapseOne" class="accordion-collapse text-light faq-answer collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Each university has its own set of admission requirements. However, generally, students need to submit transcripts, recommendation letters, standardized test scores (such as SAT, ACT, GRE, or GMAT), and a personal statement or essay.</div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="flush-headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                    How can Goldenway help me with my application essays or personal statements?
+                                </button>
+                              </h2>
+                              <div id="flush-collapseTwo" class="accordion-collapse text-light faq-answer collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Our team of counselors provides valuable feedback and guidance to help you craft compelling essays. We assist in highlighting your strengths, experiences, and goals effectively.</div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                    Does Goldenway offer any scholarships directly?
+                                </button>
+                              </h2>
+                              <div id="flush-collapseThree" class="accordion-collapse text-light faq-answer collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">While Goldenway itself doesn't provide scholarships, we help students find and apply for scholarships offered by universities, government organizations, and private institutions.</div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingFour">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                                    Can I get assistance with visa applications and understanding immigration regulations?
+                                  </button>
+                                </h2>
+                                <div id="flush-collapseFour" class="accordion-collapse text-light faq-answer collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                                  <div class="accordion-body">Yes, we provide guidance on the visa application process, required documentation, and help you understand the immigration regulations of the destination country.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingFive">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                                    How can I get started with Goldenway's services?
+                                  </button>
+                                </h2>
+                                <div id="flush-collapseFive" class="accordion-collapse text-light faq-answer collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                                  <div class="accordion-body">To begin, contact us through our website or by phone. We'll schedule an initial consultation to understand your goals and outline the services we offer based on your requirements.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <section class="section contact" data-section="section6">
