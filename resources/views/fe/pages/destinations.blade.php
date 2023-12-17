@@ -3,7 +3,7 @@
 @section('content')
 
 <section class="section main-banner" id="top" data-section="section1">
-    <img class="hero-img" src="{{ asset('images/contact-us.jpeg')}}" alt="">
+    <img class="hero-img" src="{{ asset('images/compass.jpg')}}" alt="">
     <!-- <video autoplay muted loop id="bg-video">
         <source src="assets/images/course-video.mp4" type="video/mp4" />
     </video> -->
