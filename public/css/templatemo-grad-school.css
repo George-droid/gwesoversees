@@ -270,7 +270,7 @@ a.menu-link { display: none; }
 }
 
 .main-header .logo img {
-    max-width: 300px; /* Adjust this value as your default logo size */
+    max-width: 100px; /* Adjust this value as your default logo size */
     height: auto;
 }
 

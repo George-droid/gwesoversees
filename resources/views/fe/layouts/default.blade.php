@@ -37,7 +37,7 @@
   <header class="main-header clearfix" role="header">
     <div class="logo">
       {{-- <a href="/"><em>Goldenway</em> Oversees</a> --}}
-      <a href="/"> <img src="{{ asset('images/GWES-04.png')}}" alt=""> </a>
+      <a href="/"> <img src="{{ asset('images/gwes_logo.png')}}" alt=""> </a>
     </div>
     <a href="#menu" class="menu-link"><i class="fa fa-bars"></i></a>
     <nav id="menu" class="main-navbar" role="navigation">
