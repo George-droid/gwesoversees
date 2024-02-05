@@ -1972,6 +1972,9 @@ section.contact form button {
   transition: transform 0.2s;
 }
 
+.left-content em a {
+  color: #f5a425;
+}
 
 
 

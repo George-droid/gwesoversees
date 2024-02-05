@@ -837,7 +837,7 @@
                     <h4>For more information </br><em>Don't hesitate to Contact Us</em></h4>
                     <p>Information is the guiding light that transforms aspirations into achievements.
                     <br><br>We believe that well-informed choices are the stepping stones to a brighter future.
-                    <br><br> <em>Contact us </em>today to illuminate your path to educational excellence.</p>
+                    <br><br> <em><a href="{{ route('contact') }}">Contact us</a> </em>today to illuminate your path to educational excellence.</p>
                 </div>
             </div>
             </div>
