@@ -270,7 +270,7 @@ a.menu-link { display: none; }
 }
 
 .main-header .logo img {
-    max-width: 100px; /* Adjust this value as your default logo size */
+    max-width: 90px; /* Adjust this value as your default logo size */
     height: auto;
 }
 
@@ -513,7 +513,7 @@ a.menu-link { display: none; }
     font-size: 36px;
   }
   .main-header .logo img {
-    max-width: 120px; /* Adjust this value as your default logo size */
+    max-width: 90px; /* Adjust this value as your default logo size */
     height: auto;
 }
 
@@ -1986,6 +1986,11 @@ footer {
 .footer-container {
   background-color: #f5f5dc !important;
   text-align: center;
+}
+
+footer a img {
+    max-width: 90px !important; /* Adjust this value as your default logo size */
+    height: auto !important;
 }
 
 footer p {

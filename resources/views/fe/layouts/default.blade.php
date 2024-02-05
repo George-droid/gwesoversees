@@ -157,7 +157,7 @@
                     <li><a href="{{ route('blogs') }}" class="text-light">Blogs</a></li>
                 </ul>
                 <a href="/">
-                    <img src="{{ asset('images/GWES-04.png')}}" alt="GWES" class="img-fluid mt-3" style="max-width: 150px;">
+                    <img src="{{ asset('images/gwes_logo.png')}}" alt="GWES" class="img-fluid mt-3">
                 </a>
             </div>
             <div class="col-md-4 mb-4 mb-md-0">
@@ -192,7 +192,7 @@
     <script src="vendor/jquery/jquery.min.js"></script>
    
     <script src="{{ asset('bootstrap/js/bootstrap.bundle.min.js')}}"></script>
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
     <script src="{{ asset('js/isotope.min.js')}}"></script>
     <script src="{{ asset('js/owl-carousel.js')}}"></script>
@@ -205,6 +205,7 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     {{-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> --}}
 
+    
     {{-- Interest modal script --}}
     <script>
       $(document).ready(function() {
