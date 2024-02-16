@@ -39,7 +39,7 @@ class ContactController extends Controller
         ]);
 
         // Send an email
-        Mail::to('wisgeorge.wg@gmail.com') // Replace with the recipient's email address
+        Mail::to('goldenwayseducationservices@gmail.com') // Replace with the recipient's email address
             ->send(new ContactFormMail($request));
 
         // Optionally, you can flash a success message or handle the response as needed
