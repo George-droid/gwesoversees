@@ -166,8 +166,10 @@
                      Riggz Plaza,<br>
                      Isheri Road Omole<br>
                      P.O Box 3117, Ikeja, Lagos<br>
-                    <span>Phone: +1234567890</span><br>
-                    <span>Email: info@example.com</span>
+                    <span>Phone: +2348033867683,</span><br>
+                    <span>+15107125054, +2348072577105</span><br>
+                    <span>Email: may.maduka@goldenwayedu.com,</span>
+                    <span>       linda.maduka@goldenwayedu.com</span>
                 </address>
             </div>
             <div class="col-md-4">
@@ -176,6 +178,7 @@
                     <li class="list-inline-item"><a href="#" class="text-light"><i class="fab fa-facebook"></i></a></li>
                     <li class="list-inline-item"><a href="#" class="text-light"><i class="fab fa-twitter"></i></a></li>
                     <li class="list-inline-item"><a href="#" class="text-light"><i class="fab fa-instagram"></i></a></li>
+                    <li class="list-inline-item"><a href="#" class="text-light"><i class="fab fa-linkedin"></i></a></li>
                     <!-- Add more social icons as needed -->
                 </ul>
                 <p class="mb-0">Monday - Friday: 9 a.m. - 6 p.m.</p>

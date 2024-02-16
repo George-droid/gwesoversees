@@ -49,6 +49,96 @@
           </div>
         </div>
     </section>
+
+    <section class="section why-us" data-section="section2">
+        <div class="container">
+            <div class="row">
+            <div class="col-md-12">
+                <div class="section-heading">
+                <h2>Meet Our CEO</h2>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div id='tabs'>
+                    <ul>
+                        {{-- <li><a href='#tabs-1'>Expert Guidance</a></li> --}}
+                        {{-- <li><a href='#tabs-2'>Test Preparation</a></li>
+                        <li><a href='#tabs-3'>End-to-End Support</a></li> --}}
+                    </ul>
+                    <section class='tabs-content'>
+                        <article id='tabs-1'>
+                        <div class="row">
+                            <div class="col-md-6">
+                            <img src="{{ asset('images/expert-guidance.png')}}" alt="">
+                            </div>
+                            <div class="col-md-6">
+                            <h4>Expert Guidance</h4>
+                            <h2 class="post-title">Founder's Name</h2>
+                                <p>Meet the visionary leader behind Goldenway Educational Services, Mrs. May Maduka. With 28 years of experience in the education industry, Mrs. May has been a driving force in shaping the future of students across Nigeria and Africa.</p>
+                                <p>She has achieved remarkable milestones, including contribution to Nigerian institutions, establishing great relationships and partnerships with institutions in the UK, US, Canada and other 
+                                    countries to provide the variety of options to the best educaion for the young generation.</p>
+                                <p>Under Mrs. May Maduka's guidance, Goldenway has become a prominent name in providing top-notch educational solutions and empowering dreams.</p>
+                            </div>
+                        </div>
+                        </article>
+                        {{-- <article id='tabs-2'>
+                        <div class="row">
+                            <div class="col-md-6">
+                            <img src="{{ asset('images/test-prep1.png')}}" alt="">
+                            </div>
+                            <div class="col-md-6">
+                            <h4>Accredited Test Preparation</h4>
+                            <p>We go beyond professional advice to give complete test preparation help, recognizing the crucial role of language proficiency examinations like IELTS, and TOEFL in gaining admissions overseas.</p> 
+                            <p>Our accredited training programs, led by expert teachers, are precisely intended to equip you with the skills and tactics required to excel in these tests.</p>
+                            </div>
+                        </div>
+                        </article>
+                        <article id='tabs-3'>
+                        <div class="row">
+                            <div class="col-md-6">
+                            <img src="{{ asset('images/student-support2.png')}}" alt="">
+                            </div>
+                            <div class="col-md-6">
+                            <h4>End-to-End Support</h4>
+                            <p>We understand that the process of studying abroad involves various complex steps, from university applications to visa processing and other requirements.</p>
+                            <p>We offer end-to-end support to simplify this process for you. Our dedicated team will assist you with every aspect of your journey,
+                                ensuring a smooth transition to your chosen international institution.</p>
+                            </div>
+                        </div>
+                        </article> --}}
+                    </section>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    {{-- <section class="founder-section">
+        <div class="container-xl">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-heading">
+                        <h2>OUR FOUNDER</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row gy-4">
+                <div class="col-lg-12">
+                    <div class="post featured-post-lg">
+                        <div class="post-content row">
+                            <img src="{{ asset('images/founder-image.jpg')}}" class="col-lg-6">
+                            <div class="founder-bio col-lg-6">
+                                <h2 class="post-title">Founder's Name</h2>
+                                <p>Meet the visionary leader behind Goldenway Educational Services, [Founder's Name]. With [number] years of experience in the education industry, [Founder's Name] has been a driving force in shaping the future of students across Nigeria and Africa.</p>
+                                <p>[Founder's Name] has achieved remarkable milestones, including [mention key achievements, awards, or contributions].</p>
+                                <p>Under [Founder's Name]'s guidance, Goldenway has become a prominent name in providing top-notch educational solutions and empowering dreams.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> --}}
     
     <section class="partners-section p-5">
         <div class="col-md-12">
