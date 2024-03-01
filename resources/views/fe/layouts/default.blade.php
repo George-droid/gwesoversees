@@ -46,7 +46,7 @@
         <li><a href="{{ route('about') }}">About Us</a></li></li>
         <li><a href="{{ route('blogs') }}">Blog</a></li>
         <!-- <li><a href="#section5">Video</a></li> -->
-        <li><a href="{{ route('destinations') }}">Destinations</a></li>
+        {{-- <li><a href="{{ route('destinations') }}">Destinations</a></li> --}}
         <li><a href="{{ route('contact') }}">Contact</a></li>
         <!-- <li><a href="" class="external">External</a></li> -->
       </ul>
@@ -168,8 +168,8 @@
                      P.O Box 3117, Ikeja, Lagos<br>
                     <span>Phone: +2348033867683,</span><br>
                     <span>+15107125054, +2348072577105</span><br>
-                    <span>Email: may.maduka@goldenwayedu.com,</span>
-                    <span>       linda.maduka@goldenwayedu.com</span>
+                    <span>Email: info@goldenwayedu.com,</span>
+                    <span>        goldenwayseducationservices@gmail.com</span>
                 </address>
             </div>
             <div class="col-md-4">
