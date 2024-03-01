@@ -32,7 +32,7 @@
                 <div class="post-content row">
                   <img src="{{ asset('images/about-us-svg.svg')}}" class="col-lg-6">
                   <!-- <a href="" class="category-badge">Study Abroad</a> -->
-                  <div class="services col-lg-6">
+                  <div class="services col-lg-6 my-auto">
                     <h2 class="post-title"><a href="">Premier Educational Solutions Provider</a></h2>
                     <!-- <p class="post-excerpt">Here are our core services we provide towards your educational aspirations.</p> -->
                     <div class="row">
@@ -69,16 +69,23 @@
                         <article id='tabs-1'>
                         <div class="row">
                             <div class="col-md-6">
-                            <img src="{{ asset('images/expert-guidance.png')}}" alt="">
+                            <img src="{{ asset('images/ceo.jpg')}}" alt="">
                             </div>
-                            <div class="col-md-6">
-                            <h4>Expert Guidance</h4>
-                            <h2 class="post-title">Founder's Name</h2>
-                                <p>Meet the visionary leader behind Goldenway Educational Services, Mrs. May Maduka. With 28 years of experience in the education industry, Mrs. May has been a driving force in shaping the future of students across Nigeria and Africa.</p>
-                                <p>She has achieved remarkable milestones, including contribution to Nigerian institutions, establishing great relationships and partnerships with institutions in the UK, US, Canada and other 
-                                    countries to provide the variety of options to the best educaion for the young generation.</p>
-                                <p>Under Mrs. May Maduka's guidance, Goldenway has become a prominent name in providing top-notch educational solutions and empowering dreams.</p>
+                            <div class="col-md-6 my-auto">
+                            <h4 class="post-header">Meet our CEO</h4>
+                            <h2 class="post-title">Mrs. May Maduka</h2>
+                                <p>Begin a journey of educational excellence with Mrs. May Maduka, the remarkable leader who is propelling GWES (Goldenway Educational Services) to new heights. Mrs. May, who has an amazing 28-year career in education, is a force to be reckoned with, impacting the lives of kids across Nigeria and Africa.</p>
+                                <p>Her illustrious career is punctuated by notable milestones, including substantial contributions to Nigerian educational institutions and the establishment of impactful relationships and partnerships with esteemed institutions in the UK, US, Canada, and beyond. 
+                                    This strategic network provides a diverse array of educational options, ensuring the best possible education for the younger generation.</p>
+                                <p>Under her sagacious guidance, GWES has emerged as a preeminent name in delivering top-tier educational solutions, effectively bringing ambitions into reality, and supporting the dreams of countless individuals. And as the name implies Goldenway Educational Services, 
+                                    our students have golden opportunities abroad and emerging the best in their various institutions.</p>
+                                <!-- CEO's contact details -->
+                                <div class="ceo-contact">
+                                    {{-- <h3 class="">Contact Mrs. May Maduka</h3> --}}
+                                    <p>Contact Mrs. May Maduka via Email: <a href="mailto:may.maduka@goldenwayedu.com">may.maduka@goldenwayedu.com</a></p>
+                                </div>
                             </div>
+                            
                         </div>
                         </article>
                         {{-- <article id='tabs-2'>
