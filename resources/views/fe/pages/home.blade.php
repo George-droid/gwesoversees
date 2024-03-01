@@ -495,7 +495,7 @@
         <div class="carousel ">
             <div class="carousel-container  container-fluid">
                 <div class=" col-md-6 col-lg-4 partner-card ">
-                    <a href="{{ route('destinations') }}" >
+                    <a href="{{ route('contact') }}" >
                         <img src="{{ asset('images/australia.jpg')}}"  class="card-img-top" alt="partner-04" >
                     </a>
                     <div class="partner-title"> Study In Australia</div>
@@ -507,7 +507,7 @@
                     </div> --}}
                 </div>
                 <div class= " col-md-6 col-lg-4 partner-card  ">
-                    <a href="{{ route('destinations') }}" >
+                    <a href="{{ route('contact') }}" >
                         <img src="{{ asset('images/canada.jpg')}}"  class="card-img-top" alt="partner-02" >
                     </a>
                     <div class="partner-title"> Study In Canada</div>
@@ -519,7 +519,7 @@
                     </div> --}}
                 </div>
                 <div class="col-md-6 col-lg-4 partner-card ">
-                    <a href="{{ route('destinations') }}" >
+                    <a href="{{ route('contact') }}" >
                         <img src="{{ asset('images/france_n.jpg')}}"  class="card-img-top" alt="partner-06" >
                     </a>
                     <div class="partner-title"> Study In France</div>
@@ -531,7 +531,7 @@
                     </div> --}}
                 </div>
                 <div class=" col-md-6 col-lg-4 partner-card">
-                    <a href="{{ route('destinations') }}" >
+                    <a href="{{ route('contact') }}" >
                         <img src="{{ asset('images/germany_n.jpg')}}"  class="card-img-top" alt="partner-05" >
                     </a>
                     <div class="partner-title"> Study In Germany</div>
@@ -543,7 +543,7 @@
                     </div> --}}
                 </div>
                 <div class=" col-md-6 col-lg-4 partner-card">
-                <a href="{{ route('destinations') }}" >
+                <a href="{{ route('contact') }}" >
                     <img src="{{ asset('images/usa.jpg')}}" class="card-img-top" alt="partner-01"  >
                 </a>    
                 <div class="partner-title ">  Study In USA </div>
@@ -555,7 +555,7 @@
                 </div> --}}
                 </div>
                 <div class=" col-md-6 col-lg-4 partner-card">
-                <a href="{{ route('destinations') }}" >
+                <a href="{{ route('contact') }}" >
                     <img src="{{ asset('images/london_n.jpg')}}"  class="card-img-top" alt="partner-03" >
                 </a>
                 <div class="partner-title"> Study In UK</div>
