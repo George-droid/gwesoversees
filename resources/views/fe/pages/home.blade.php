@@ -31,7 +31,7 @@
                 </div>
                 <div class="content-hide">
                 <p>We are a group of committed educational experts with years of experience. Our experienced counselors are well-versed in international educational systems, admission procedures, and scholarship prospects.</p>
-                <p class="hidden-sm">Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis eros a posuere imperdiet.</p>
+                <p class="hidden-sm">We are a group of committed educational experts with years of experience. Our experienced counselors are well-versed in international educational systems, admission procedures, and scholarship prospects.</p>
                 {{-- <div class="scroll-to-section"><a href="#section2">More Info.</a></div> --}}
             </div>
             </div>
@@ -45,7 +45,7 @@
                 </div>
                 <div class="content-hide">
                 <p>We understand the unique needs of Nigerian and African parents and students while also having a vast network of connections with reputable institutions worldwide.</p>
-                <p class="hidden-sm">Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis eros a posuere imperdiet.</p>
+                <p class="hidden-sm">We understand the unique needs of Nigerian and African parents and students while also having a vast network of connections with reputable institutions worldwide.</p>
                 {{-- <div class="scroll-to-section"><a href="#section3">Details</a></div> --}}
             </div>
             </div>
@@ -59,7 +59,7 @@
                 </div>
                 <div class="content-hide">
                 <p>Our mission is to be your guiding light as you pursue admissions and placements at prestigious international institutions. We are here to serve you by empowering you, providing complete solutions, and unlocking prospects for a brighter future.</p>
-                <p class="hidden-sm">Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis eros a posuere imperdiet.</p>
+                <p class="hidden-sm">Our mission is to be your guiding light as you pursue admissions and placements at prestigious international institutions. We are here to serve you by empowering you, providing complete solutions, and unlocking prospects for a brighter future.</p>
                 {{-- <div class="scroll-to-section"><a href="#section4">Read More</a></div> --}}
             </div>
             </div>
