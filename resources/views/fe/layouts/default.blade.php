@@ -166,7 +166,7 @@
                      Riggz Plaza,<br>
                      Isheri Road Omole<br>
                      P.O Box 3117, Ikeja, Lagos<br>
-                    <span>Phone: +2348033867683,</span><br>
+                    <span>Phone: +2349038947458,</span><br>
                     <span>+15107125054, +2348072577105</span><br>
                     <span>Email: info@goldenwayedu.com,</span>
                     <span>        goldenwayseducationservices@gmail.com</span>
