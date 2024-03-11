@@ -25,6 +25,8 @@ Route::get('/', [CustomAuthController::class, 'home'])->name('home');
 Route::get('/about', [CustomAuthController::class, 'about'])->name('about');
 Route::get('/contact-us', [ContactController::class, 'contact'])->name('contact');
 Route::post('/contact-us/submit', [ContactController::class, 'submitContactForm'])->name('contact.submit');
+Route::get('/gallery-and-events', [CustomAuthController::class, 'galleryAndEvents'])->name('gallery');
+
 
 Route::get('/blogs', [BlogController::class, 'blogs'])->name('blogs');
 Route::get('/blogs/choosing-the-right', [BlogController::class, 'blog1'])->name('choosing-the-right');

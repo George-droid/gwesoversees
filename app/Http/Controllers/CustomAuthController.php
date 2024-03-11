@@ -49,4 +49,8 @@ class CustomAuthController extends Controller
     {
         return view('fe.pages.destinations');
     }
+
+    public function galleryAndEvents(){
+        return view('fe.pages.gallery-and-events');
+    }
 }
