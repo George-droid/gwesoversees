@@ -182,16 +182,16 @@
                     <span>Phone: +2349038947458,</span><br>
                     <span>+15107125054, +2348072577105</span><br>
                     <span>Email: info@goldenwayedu.com,</span>
-                    <span>        goldenwayseducationservices@gmail.com</span>
+                    <span>        goldenwayeducationalservices@gmail.com</span>
                 </address>
             </div>
             <div class="col-md-4">
                 <h5>Follow Us</h5>
                 <ul class="list-inline">
-                    <li class="list-inline-item"><a href="#" class="text-light"><i class="fab fa-facebook"></i></a></li>
-                    <li class="list-inline-item"><a href="#" class="text-light"><i class="fab fa-twitter"></i></a></li>
-                    <li class="list-inline-item"><a href="#" class="text-light"><i class="fab fa-instagram"></i></a></li>
-                    <li class="list-inline-item"><a href="#" class="text-light"><i class="fab fa-linkedin"></i></a></li>
+                    <li class="list-inline-item"><a href="https://www.facebook.com/Goldenway.eduservices?mibextid=LQQJ4d" class="text-light"><i class="fab fa-facebook"></i></a></li>
+                    <li class="list-inline-item"><a href="https://x.com/goldenwayedu?s=21" class="text-light"><i class="fab fa-twitter"></i></a></li>
+                    <li class="list-inline-item"><a href="https://www.instagram.com/goldenway.eduservices?igsh=NHVrNDJmN3MwM3Vq" class="text-light"><i class="fab fa-instagram"></i></a></li>
+                    <li class="list-inline-item"><a href="https://www.linkedin.com/in/goldenway-educational-services-812541300?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" class="text-light"><i class="fab fa-linkedin"></i></a></li>
                     <!-- Add more social icons as needed -->
                 </ul>
                 <p class="mb-0">Monday - Friday: 9 a.m. - 6 p.m.</p>
