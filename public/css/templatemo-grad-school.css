@@ -1708,6 +1708,19 @@ section.contact form input {
     letter-spacing: 0.5px;
 }
 
+section.contact form select {
+  width: 100%;
+  height: 40px;
+  background-color: rgba(250,250,250,0.1);
+  border-radius: 0px;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 13px;
+  margin-bottom: 30px;
+  letter-spacing: 0.5px;
+}
+
 section.contact form textarea {
     width: 100%;
     height: 220px;

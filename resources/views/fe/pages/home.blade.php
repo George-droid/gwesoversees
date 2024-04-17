@@ -815,6 +815,15 @@
                                     <input name="subject" type="text" class="form-control" id="subject" placeholder="Subject" required="">
                                 </fieldset>
                             </div>
+                            <div class="col-md-12 bp-3">
+                                <fieldset>
+                                    <select name="consultancy_option" class="form-control" id="consultancy_option" required="">
+                                        <option value="" disabled selected>Select Consultancy Option</option>
+                                        <option value="in-person">In-Person Consultancy</option>
+                                        <option value="virtual">Virtual Consultancy</option>
+                                    </select>
+                                </fieldset>
+                            </div>
                             <div class="col-md-12">
                                 <fieldset>
                                 <textarea name="message" rows="4" class="form-control" id="message" placeholder="Your message..." required=""></textarea>

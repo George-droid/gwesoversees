@@ -35,11 +35,12 @@ class ContactController extends Controller
             'email' => 'required|email',
             'phone' => 'required',
             'subject' => 'required',
+            'consultancy_option' => 'required',
             'message' => 'required',
         ]);
 
         // Send an email
-        Mail::to('goldenwayeducationalservices@gmail.com') // Replace with the recipient's email address
+        Mail::to('wisgeorge.wg@gmail.com') // Replace with the recipient's email address
             ->send(new ContactFormMail($request));
 
         // Optionally, you can flash a success message or handle the response as needed
