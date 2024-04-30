@@ -78,7 +78,7 @@
                 </form>
             </div>
         </div>
-        {{-- <div class="row gy-4">
+        <div class="row gy-4">
             <div class="col-lg-12">
               <div class="post featured-post-lg">
                 <div class="post-content-contact ">
@@ -97,7 +97,7 @@
                 </div>
               </div>
             </div>
-        </div> --}}
+        </div>
     </div>
 </section>
     

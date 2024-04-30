@@ -838,16 +838,19 @@
                 </form>
             </div>
             <div class="col-md-6 align-self-center">
-                {{-- <div id="map">
-                <iframe src="https://maps.google.com/maps?q=Av.+L%C3%BAcio+Costa,+Rio+de+Janeiro+-+RJ,+Brazil&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="422px" frameborder="0" style="border:0" allowfullscreen></iframe>
-                </div> --}}
                 <div class="left-content">
                     {{-- <span>Testimonial</span> --}}
                     <h4>For more information </br><em>Don't hesitate to Contact Us</em></h4>
-                    <p>Information is the guiding light that transforms aspirations into achievements.
-                    <br><br>We believe that well-informed choices are the stepping stones to a brighter future.
+                    <p>
+                        {{-- Information is the guiding light that transforms aspirations into achievements.<br> --}}
+                        We believe that well-informed choices are the stepping stones to a brighter future.
                     <br><br> <em><a href="{{ route('contact') }}">Contact us</a> </em>today to illuminate your path to educational excellence.</p>
                 </div>
+                <div id="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15852.348265519362!2d3.3541399!3d6.636109!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b9343bc79ad81%3A0x68210aae3469e988!2sGoldenway%20Educational%20Services!5e0!3m2!1sen!2sng!4v1714492777644!5m2!1sen!2sng" width="100%" height="422" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                {{-- <iframe src="https://maps.google.com/maps?q=Av.+L%C3%BAcio+Costa,+Rio+de+Janeiro+-+RJ,+Brazil&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="422px" frameborder="0" style="border:0" allowfullscreen></iframe> --}}
+                </div>
+                
             </div>
             </div>
         </div>
